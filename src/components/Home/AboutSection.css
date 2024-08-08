@@ -1,0 +1,81 @@
+.about-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Gap between video and text */
+  flex-wrap: wrap;
+}
+
+.video-section {
+  flex: 1;
+  max-width: 600px;
+  width: 100%;
+}
+
+.about-video {
+  width: 100%;
+  height: auto;
+}
+
+.text-section {
+  flex: 1;
+  max-width: 600px;
+  width: 100%;
+  text-align: left;
+}
+
+.know-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000000; /* Customize the color as needed */
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  border-radius: 0px;
+  transition: background-color 0.3s;
+}
+
+.know-more:hover {
+  background-color: #ff8c00; /* Customize the hover color as needed */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .video-section,
+  .text-section {
+    max-width: 100%;
+  }
+
+  .about-heading {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-heading {
+    font-size: 1.5em;
+  }
+
+  .know-more {
+    width: 35%;
+    font-size: 14px;
+  }
+}

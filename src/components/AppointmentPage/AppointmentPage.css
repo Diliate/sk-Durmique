@@ -1,0 +1,120 @@
+.appointment-page {
+  font-family: "Poppins", sans-serif;
+}
+.appointment-page-container {
+  width: 100%;
+  padding: 60px 15px;
+  background: #e6e6e6;
+}
+.appointment-form-section {
+  background-size: cover;
+  background-position: center;
+
+  padding: 50px 0;
+  display: flex;
+  top: 10vh;
+  justify-content: center;
+}
+
+.appointment-form-container {
+  background: rgba(255, 255, 255, 0.814);
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 40%;
+  width: 100%;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  right: 20rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  right: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.appointment-button {
+  width: 40%;
+  padding: 10px;
+  background-color: #aa9e86;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transform: translateX(75%);
+}
+
+.appointment-button:hover {
+  background-color: #38352d;
+}
+
+.clinic-info-section {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+.clinic-image {
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.clinic-info {
+  padding-left: 20px;
+}
+
+.clinic-info h2 {
+  margin-bottom: 20px;
+}
+
+.clinic-info p {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .clinic-info-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .clinic-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .clinic-info {
+    padding-left: 0;
+  }
+
+  .appointment-form-container {
+    padding: none;
+
+    max-width: 90%;
+  }
+}
