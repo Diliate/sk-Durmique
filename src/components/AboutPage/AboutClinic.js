@@ -1,9 +1,7 @@
 import React from "react";
-import "./AboutClinic.css"; // Import your CSS file for styling
-
-// Import images
+import "./AboutClinic.css"; 
 import clinicImage from "../../assets/images/clinic.jpg";
-import otherClinicImage from "../../assets/images/clinic.jpg"; // Replace with the correct image path if different
+import otherClinicImage from "../../assets/images/clinic.jpg"; 
 
 const AboutClinic = () => {
   return (
@@ -53,22 +51,7 @@ const AboutClinic = () => {
               </p>
             </div>
           </div>
-          <div className="clinic-location">
-            <h2>Location of Dermique Clinic</h2>
-            <div className="map-container">
-              <iframe
-                title="Clinic Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.373793245254!2d77.3299264760197!3d28.407050165845362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1fa7e6317e43%3A0x8f48d8d8a1a20d65!2s123%20Health%20Street%2C%20Greater%20Faridabad!5e0!3m2!1sen!2sin!4v1693914721141!5m2!1sen!2sin"
-                width="600" // Adjusted width
-                height="300"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-              ></iframe>
-            </div>
-          </div>
         </section>
-
         <section className="other-clinic">
           <div className="other-clinic-content">
             <div className="other-clinic-description">
@@ -103,6 +86,20 @@ const AboutClinic = () => {
             <div className="other-clinic-image">
               <img src={otherClinicImage} alt="Other Clinic" />
             </div>
+          </div>
+          <div className="clinic-location">
+            <h2>Location of Dermique Clinic</h2>
+          </div>
+          <div className="map-container">
+            <iframe
+              title="Clinic Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.373793245254!2d77.3299264760197!3d28.407050165845362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1fa7e6317e43%3A0x8f48d8d8a1a20d65!2s123%20Health%20Street%2C%20Greater%20Faridabad!5e0!3m2!1sen!2sin!4v1693914721141!5m2!1sen!2sin"
+              width="600" // Adjusted width
+              height="300"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+            ></iframe>
           </div>
         </section>
       </div>

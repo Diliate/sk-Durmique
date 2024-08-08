@@ -154,20 +154,7 @@ const ContactPage = () => {
               ></iframe>
             </div>
           </div>
-          <div className="clinic-info">
-            <h2>About Our Clinic</h2>
-
-            <p>
-              At SK Durmiqe Clinic, our mission is to offer the finest treatment
-              options using the latest technologies. We believe in a holistic
-              approach to skincare and haircare, ensuring comprehensive care for
-              both aesthetic and health needs. We are committed to helping you
-              achieve your skin and hair goals with personalized care and
-              state-of-the-art technology. Visit us today to discover why SK
-              Durmiqe Clinic is the best choice for skin and hair treatments in
-              Greater Faridabad.
-            </p>
-          </div>
+          
         </div>
       </div>
     </>

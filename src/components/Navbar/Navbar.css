@@ -60,7 +60,6 @@
 .navbar-links ul {
   display: flex;
   list-style: none;
-  padding: 0;
 }
 
 .navbar-links li {
@@ -129,7 +128,7 @@
   font-weight: 600;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
   text-decoration: none;
-  border-radius: 1px;
+  border-radius: 23px 23px 23px 23px ;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 

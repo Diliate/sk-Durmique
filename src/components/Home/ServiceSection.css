@@ -96,6 +96,8 @@
   color: white;
   border-radius: 0px;
   cursor: pointer;
+  border-radius: 23px 23px 23px 23px ;
+
 }
 
 .services-know-more-button button:hover {

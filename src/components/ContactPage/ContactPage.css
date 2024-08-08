@@ -14,12 +14,14 @@
 }
 
 .contact-heading {
-  background-color: pink;
+  background-color:#D6C0B5;
   text-align: center;
   padding: 15px;
   font-size: 18px;
   margin: 20px auto;
   width: 20%;
+  border-radius: 23px 23px 23px 23px;
+
 }
 
 .contact-intro {
@@ -97,9 +99,10 @@
 
 button {
   padding: 10px 20px;
-  background-color: pink;
+  background-color:#D6C0B5 ;
   border: none;
   cursor: pointer;
+  border-radius: 23px 23px 23px 23px;
 }
 
 .additional-info {
