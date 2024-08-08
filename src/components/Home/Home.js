@@ -12,32 +12,6 @@ function Home() {
   return (
     <>
       <div className="home-container">
-        <div className="social-media-icons">
-          <a
-            href="https://facebook.com"
-            className="social-icon facebook"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            F
-          </a>
-          <a
-            href="https://twitter.com"
-            className="social-icon twitter"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            T
-          </a>
-          <a
-            href="https://instagram.com"
-            className="social-icon instagram"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            I
-          </a>
-        </div>
         <div className="home-image-section">
           <img src={homepic1} alt="image1" className="image-zigzag" />
         </div>

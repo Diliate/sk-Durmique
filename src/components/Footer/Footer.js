@@ -23,16 +23,24 @@ const Footer = () => {
           <h3>Useful Links</h3>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <a href="/">Home</a>
+            </li>
+            <li class="dropdown">
+              <a href="/about/doctor" class="dropbtn">About Doctor</a>
+              <div class="dropdown-content">
+                <a href="/about/clinic">About Clinic</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <div class="dropdown-content">
+                <a href="/services/normal">Normal Services</a>
+              </div>
+              <div>
+                <a href="/services/special">Special Services</a>
+              </div>
             </li>
             <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/services">Services</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>

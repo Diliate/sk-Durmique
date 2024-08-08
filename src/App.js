@@ -27,31 +27,6 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Normalservice from "./components/ServicePage/Normalservice";
 import Normalservicedetail from "./components/ServicePage/Normalservicedetail";
 
-function AnalyticsLogger() {
-  const location = useLocation();
-  const [analyticsInstance, setAnalyticsInstance] = useState(null);
-
-  useEffect(() => {
-    analyticsPromise.then((analytics) => {
-      if (analytics) {
-        setAnalyticsInstance(analytics);
-      }
-    });
-  }, []);
-
-  useEffect(() => {
-    if (analyticsInstance) {
-      analyticsInstance.logEvent("page_view", {
-        page_path: location.pathname,
-        page_title: document.title,
-      });
-    } else {
-      console.warn("Analytics is not initialized yet.");
-    }
-  }, [location, analyticsInstance]);
-
-  return null;
-}
 
 function App() {
   return (

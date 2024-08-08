@@ -68,11 +68,7 @@ function AboutDoctor() {
                 <li>Regular attendee and speaker at dermatology conferences</li>
               </ul>
             </section>
-            <section className="contact">
-              <h2 className="sub-heading">Contact Information</h2>
-              <p>Email: info@example.com</p>
-              <p>Phone: +91-1234567890</p>
-            </section>
+           
           </div>
         </div>
       </div>

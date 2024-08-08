@@ -16,7 +16,6 @@ function Blogpage() {
   const blogData = [
     {
       title: "Top 5 Skincare Tips for Healthy Skin",
-      date: "August 5, 2024",
       image: skincareTipsImage,
       alt: "Skincare Tips",
       description:
@@ -25,7 +24,6 @@ function Blogpage() {
     },
     {
       title: "Understanding Different Skin Types",
-      date: "July 28, 2024",
       image: skinTypesImage,
       alt: "Skin Types",
       description:
@@ -34,7 +32,6 @@ function Blogpage() {
     },
     {
       title: "The Benefits of Regular Facials",
-      date: "July 15, 2024",
       image: facialsImage,
       alt: "Facials",
       description:
@@ -69,57 +66,6 @@ function Blogpage() {
             </article>
           ))}
         </section>
-        <aside className="sidebar">
-          <h3>About Our Clinic</h3>
-          <p>
-            Our skincare clinic offers a range of services to help you achieve
-            and maintain healthy, beautiful skin. From facials and peels to
-            advanced treatments, our experts are here to provide personalized
-            care.
-          </p>
-          <h3>Categories</h3>
-          <ul>
-            <li>
-              <a href="/">Skincare Tips</a>
-            </li>
-            <li>
-              <a href="/">Treatments</a>
-            </li>
-            <li>
-              <a href="/">Product Reviews</a>
-            </li>
-            <li>
-              <a href="/">Clinic News</a>
-            </li>
-          </ul>
-          <h3>Follow Us</h3>
-          <div className="social-media-links">
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faFacebookF} />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-          </div>
-        </aside>
-        <footer className="blogpage-footer">
-          <p>&copy; 2024 Skincare Clinic. All rights reserved.</p>
-        </footer>
       </div>
     </>
   );
