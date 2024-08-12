@@ -1,7 +1,14 @@
 .normalservice-container {
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
+  .normalservice-inner-container{
+    max-width: 1350px;
+  }
+
   .normalservice-heading {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -73,3 +80,17 @@
       gap: 20px;
     }
   }
+
+  .preload-image {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    background-image: url('./../../assets/images/servicepage2.jpg');
+    background-image: url('./../../assets/images/servicapage8.jpg');
+    background-image: url('./../../assets/images/servicedk1.jpeg');
+    background-image: url('./../../assets/images/Specialservice4.jpg');
+    background-image: url('./../../assets/images/servicepage5.jpg');
+    background-image: url('./../../assets/images/servicepage1.jpg');
+  }
+  

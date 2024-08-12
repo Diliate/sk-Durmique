@@ -30,6 +30,7 @@ const Services = () => {
         src={service.img}
         alt={service.title}
         className="services-card-image"
+        loading="lazy"
       />
       <div className="services-card-overlay">
         <h3 className="services-card-title">{service.title}</h3>
@@ -41,19 +42,21 @@ const Services = () => {
 
   return (
     <div className="services-page">
-      <section className="services-intro-section">
-        <h2>SPECIAL SERVICE</h2>
-        <p>
-          We offer a range of specialized treatments designed to enhance your
-          well-being. Our expert team is dedicated to providing top-notch care
-          and personalized service for each of your needs.
-        </p>
-      </section>
-      <div className="services-image-grid">{items}</div>
-      <div className="services-know-more-button">
-        <Link to="/services/special">
-          <button>Know More</button>
-        </Link>
+      <div className="services-inner-container">
+        <section className="services-intro-section">
+          <h2>SPECIAL SERVICE</h2>
+          <p>
+            We offer a range of specialized treatments designed to enhance your
+            well-being. Our expert team is dedicated to providing top-notch care
+            and personalized service for each of your needs.
+          </p>
+        </section>
+        <div className="services-image-grid">{items}</div>
+        <div className="services-know-more-button">
+          <Link to="/services/special">
+            <button>Know More</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

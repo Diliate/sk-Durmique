@@ -1,5 +1,13 @@
 .services-page {
-  padding: 20px;
+  padding: 20px 20px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-inner-container{
+  max-width: 1350px;
 }
 
 .services-intro-section {

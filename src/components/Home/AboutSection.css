@@ -1,6 +1,9 @@
 .about-page {
   padding: 20px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-heading {
@@ -11,35 +14,39 @@
 
 .about-content {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
-  gap: 20px; /* Gap between video and text */
-  flex-wrap: wrap;
+  max-width: 1350px;
 }
 
 .video-section {
   flex: 1;
-  max-width: 600px;
+  max-width: 730px;
   width: 100%;
 }
 
 .about-video {
-  width: 100%;
+  width: 95%;
   height: auto;
 }
 
 .text-section {
-  flex: 1;
-  max-width: 600px;
-  text-align: left;
-  bottom: 20rem;
+  width: 690px;
+  text-align: justify;
+}
+
+.text-section h3{
+  font-size: 25px;
+}
+
+.text-section p{
+  font-size: 18px;
+  line-height: 1.9;
 }
 
 .know-more {
-  margin-bottom: 100px;
+  margin-top: 20px;
   padding: 8px 20px;
-  background-color: #000000; /* Customize the color as needed */
+  background-color: #000000;
   border: none;
   color: white;
   cursor: pointer;
@@ -47,11 +54,10 @@
   font-size: 14px;
   transition: background-color 0.3s;
   border-radius: 23px 23px 23px 23px ;
-
 }
 
 .know-more:hover {
-  background-color: #898989; /* Customize the hover color as needed */
+  background-color: #898989;
 }
 
 /* Responsive Design */

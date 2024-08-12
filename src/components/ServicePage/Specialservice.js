@@ -66,22 +66,24 @@ function Specialservice() {
   return (
     <>
       <div className="specialservice-container">
-        <h1 className="specialservice-heading">Special Services</h1>
-        <div className="image-grid">
-          {images.map((image) => (
-            <div key={image.id} className="image-card">
-              <img src={image.src} alt={image.alt} className="image" />
-              <div className="details-overlay">
-                <h2 className="details-text">{image.title}</h2>
-                <p>{image.details}</p>
-                <Link to={`/services/special/${image.id}`}>
-                  <button className="know-more-button">
-                    Know more <FaAngleRight />{" "}
-                  </button>
-                </Link>
+        <div className="specialservice-inner-conatiner">
+          <h1 className="specialservice-heading">Special Services</h1>
+          <div className="image-grid">
+            {images.map((image) => (
+              <div key={image.id} className="image-card">
+                <img src={image.src} alt={image.alt} className="image" />
+                <div className="details-overlay">
+                  <h2 className="details-text">{image.title}</h2>
+                  <p>{image.details}</p>
+                  <Link to={`/services/special/${image.id}`}>
+                    <button className="know-more-button">
+                      Know more <FaAngleRight />{" "}
+                    </button>
+                  </Link>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </>

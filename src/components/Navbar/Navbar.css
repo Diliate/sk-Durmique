@@ -12,7 +12,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   border: 1px solid #ddd;
   color: #010101;
   position: sticky;
@@ -37,6 +37,7 @@
   width: 100px;
   height: 75px;
   margin-right: 8px;
+  mix-blend-mode: multiply;
 }
 
 .caption {
@@ -75,6 +76,15 @@
 }
 
 .navbar-links a:hover {
+  color: #624615;
+  font-weight: 700;
+}
+
+.no-link {
+  color: #0b0b0b;
+}
+
+.no-link:hover{
   color: #624615;
   font-weight: 700;
 }

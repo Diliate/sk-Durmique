@@ -12,7 +12,7 @@ import image7 from "./../../assets/images/servicepage1.jpg";
 
 import { FaAngleRight } from "react-icons/fa";
 
-function Specialservice() {
+function Normalservice() {
   const images = [
     {
       id: 1,
@@ -75,26 +75,28 @@ function Specialservice() {
   return (
     <>
       <div className="normalservice-container">
-        <h1 className="normalservice-heading">Normal Services</h1>
-        <div className="image-grid">
-          {images.map((image) => (
-            <div key={image.id} className="image-card">
-              <img src={image.src} alt={image.alt} className="image" />
-              <div className="details-overlay">
-                <h2 className="details-text">{image.title}</h2>
-                <p>{image.details}</p>
-                <Link to={`/services/normal/${image.id}`}>
-                  <button className="know-more-button">
-                    Know more <FaAngleRight />{" "}
-                  </button>
-                </Link>
+        <div className="normalservice-inner-container">
+          <h1 className="normalservice-heading">Normal Services</h1>
+          <div className="image-grid">
+            {images.map((image) => (
+              <div key={image.id} className="image-card">
+                <img src={image.src} alt={image.alt} className="image" />
+                <div className="details-overlay">
+                  <h2 className="details-text">{image.title}</h2>
+                  <p>{image.details}</p>
+                  <Link to={`/services/normal/${image.id}`}>
+                    <button className="know-more-button">
+                      Know more <FaAngleRight />{" "}
+                    </button>
+                  </Link>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </>
   );
 }
 
-export default Specialservice;
+export default Normalservice;

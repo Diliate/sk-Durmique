@@ -4,8 +4,8 @@
   padding: 40px 20px;
   font-family: "Lato", sans-serif;
   background-color: #fff;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1350px;
+  margin: auto;
 }
 
 .main-heading {
@@ -23,18 +23,18 @@
 }
 
 .doctor-details {
-  max-width: 1000px;
+  max-width: 1350px;
   width: 100%;
 }
 
 .doctor-image-inline {
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   height: auto;
   margin: 0 20px 20px 0;
   float: left;
   object-fit: cover;
-  border-radius: 8px; /* Optional: for a slight border radius */
+  border-radius: 8px;
 }
 
 .sub-heading {
@@ -42,11 +42,13 @@
   font-size: 2em;
   color: #444;
   margin-top: 20px;
+  text-align: left;
 }
 
 .sub-heading-desc {
   font-family: "Poppins", sans-serif;
   font-size: 1.2em;
+  font-weight: bold;
   color: #666;
   margin-bottom: 20px;
 }
@@ -55,13 +57,15 @@
 .professional-experience,
 .contact {
   margin-top: 20px;
+
 }
 
 .biography p,
 .professional-experience ul,
 .contact p {
-  font-size: 1em;
-  line-height: 1.6;
+  font-size: 1.05em;
+  text-align: justify;
+  line-height: 1.8;
   color: #555;
 }
 

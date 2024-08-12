@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap");
 
 .blog-section-page {
-  max-width: 1200px;
+  max-width: 1350px;
   margin: 0 auto;
   padding: 20px;
   font-family: "Lato", sans-serif;
@@ -67,6 +67,7 @@
   transition: transform 0.3s ease;
   padding: 20px;
   font-weight: 600;
+  height: 450px;
   margin: 10px;
   text-align: left;
 }
@@ -84,6 +85,8 @@
 
 .blog-section-card-content {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-section-card p {
@@ -162,5 +165,15 @@
 
   .blog-section-skin-care-tips h4 {
     font-size: 1.2rem;
+  }
+
+  .blog-section-prev-button {
+    left: 0px; 
+    font-size: 20px;
+  }
+  
+  .blog-section-next-button {
+    right: 0px; 
+    font-size: 20px;
   }
 }

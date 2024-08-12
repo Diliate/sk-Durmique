@@ -6,7 +6,7 @@
 }
 
 .specialservice-inner-container {
-    max-width: 1400px;
+    max-width: 1350px;
 }
 
 .special-service-content img {
@@ -24,10 +24,12 @@
 
 .special-container p {
     margin-top: 10px;
+    text-align: justify;
 }
 
 .extra-details{
     margin-top: 20px;
+    text-align: justify;
 }
 
 .breadcrumbs {

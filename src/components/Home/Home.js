@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import homepic1 from "../../assets/images/Home-pic1.png";
 
 import "./Home.css";
@@ -28,9 +29,9 @@ function Home() {
               Your Hair. Unleash the Radiance Within You.
             </p>
             <div className="home-button">
-              <a href="/login" className="home-appointment-button">
+              <Link to="/login" className="home-appointment-button">
                 Book Appointment
-              </a>
+              </Link>
             </div>
           </div>
         </div>

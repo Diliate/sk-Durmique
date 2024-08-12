@@ -26,15 +26,20 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Normalservice from "./components/ServicePage/Normalservice";
 import Normalservicedetail from "./components/ServicePage/Normalservicedetail";
-
+import Normalserviceindividual from "./components/ServicePage/Normalserviceindividual";
 
 function App() {
   return (
     <AuthProvider>
       <Router>
         <ScrollToTop />
-        <div className="App">
-          <Navbar />
+        <Navbar />
+        <div
+          className="App"
+          style={{
+            minHeight: "500px",
+          }}
+        >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about/clinic" element={<AboutClinic />} />
@@ -52,6 +57,11 @@ function App() {
               element={<Normalservicedetail />}
             />
 
+            <Route
+              path="/services/normal/:id/:title"
+              element={<Normalserviceindividual />}
+            />
+
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/Testimonial" element={<Testimonial />} />
@@ -59,8 +69,8 @@ function App() {
             <Route path="/appointment" element={<AppointmentPage />} />
             <Route path="/login" element={<Login />} />
           </Routes>
-          <Footer />
         </div>
+        <Footer />
       </Router>
     </AuthProvider>
   );

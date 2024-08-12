@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1350px;
   margin: auto;
 }
 
@@ -22,18 +22,34 @@ h2 {
   text-align: center;
 }
 
+.clinic-image img {
+  width: 100%;
+  height: auto;
+}
+
+.clinic-content {
+  gap: 30px;
+}
+
 .clinic-content,
 .other-clinic-content {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: left;
   margin-bottom: 40px;
   width: 100%;
 }
 
 .clinic-description,
 .other-clinic-description {
-  flex: 2;
+  flex: 1.5;
+}
+
+.clinic-description {
+  padding-right: 40px;
+}
+
+.other-clinic-description {
+  padding-left: 30px;
 }
 
 .clinic-description p,
@@ -104,6 +120,15 @@ h2 {
     width: 100%;
     height: auto;
     border-radius: 8px;
+  }
+
+  
+  .clinic-description {
+    padding-right: 0;
+  }
+  
+  .other-clinic-description {
+    padding-left: 0;
   }
 
   .clinic-description,

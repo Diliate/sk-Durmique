@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3>SK DERMIQE</h3>
+          <h3>SK DURMIQE</h3>
           <p>Skin Hair & Laser Clinic</p>
           <p>Your trusted partner for skincare solutions.</p>
         </div>
@@ -23,24 +23,26 @@ const Footer = () => {
           <h3>Useful Links</h3>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
-            <li class="dropdown">
-              <a href="/about/doctor" class="dropbtn">About Doctor</a>
-              <div class="dropdown-content">
-                <a href="/about/clinic">About Clinic</a>
+            <li className="dropdown">
+              <Link to="/about/doctor" className="dropbtn">
+                About Doctor
+              </Link>
+              <div className="dropdown-content">
+                <Link to="/about/clinic">About Clinic</Link>
               </div>
             </li>
-            <li class="dropdown">
-              <div class="dropdown-content">
-                <a href="/services/normal">Normal Services</a>
+            <li className="dropdown">
+              <div className="dropdown-content">
+                <Link to="/services/normal">Normal Services</Link>
               </div>
               <div>
-                <a href="/services/special">Special Services</a>
+                <Link to="/services/special">Special Services</Link>
               </div>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
