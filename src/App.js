@@ -63,6 +63,9 @@ function AppContent() {
             <div
               style={{
                 minHeight: "500px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
               Loading...

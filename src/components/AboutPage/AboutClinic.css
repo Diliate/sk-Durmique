@@ -45,7 +45,7 @@ h1 {
 }
 
 .clinic-description {
-  padding-right: 40px;
+  /* padding-right: 40px; */
 }
 
 .other-clinic-description {
@@ -137,12 +137,17 @@ h1 {
     font-size: 2em;
   }
 
-  h2 {
-    font-size: 1.5em;
+  .clinic-location h2 {
+    font-size: 25px;
   }
 
   .about-clinic {
     padding: 10px 15px;
+  }
+
+  .other-clinic{
+    width: 360px;
+    padding: 0 10px;
   }
 
   .clinic-content,
@@ -156,7 +161,7 @@ h1 {
   .other-clinic-image {
     margin-right: 0;
     width: 100%;
-    max-width: 100%;
+    /* max-width: 100%; */
   }
 
   .clinic-image img,
@@ -185,6 +190,21 @@ h1 {
   .other-clinic-description p {
     margin-bottom: 15px;
   }
+
+  
+.timings-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+.timings-inner-container div {
+  width: 333px;
+}
 
   .map-container iframe {
     height: 300px;
