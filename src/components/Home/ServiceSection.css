@@ -1,5 +1,5 @@
 .services-page {
-  margin: 50px 0;
+  margin: 20px 0;
   padding: 80px 20px;
   display: flex;
   flex-direction: column;
@@ -106,8 +106,6 @@
   border-radius: 0px;
   cursor: pointer;
   border-radius: 23px 23px 23px 23px ;
-  margin-left: 7.6rem;
-
 }
 
 .services-know-more-button button:hover {

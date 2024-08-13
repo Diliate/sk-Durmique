@@ -65,11 +65,15 @@
   
   
    .know-more-button {
-    color: #fff;
+    background: #f4b12a;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    border: none;
     gap: 5px;
+    cursor: pointer;
   }
   
   .know-more-button:hover {
