@@ -22,7 +22,7 @@ function AboutSection() {
             confidence, and promote overall well-being.
           </p>
           <Link to="/about/clinic">
-            <button className="know-more">Know More</button>
+            <button className="know-more">Know More About Our Clinic</button>
           </Link>
         </div>
       </div>

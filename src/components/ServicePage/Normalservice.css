@@ -6,7 +6,7 @@
   }
   
   .normalservice-inner-container{
-    max-width: 1350px;
+    max-width: 1400px;
   }
 
   .normalservice-heading {
@@ -23,6 +23,7 @@
   .image-card {
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
   }
   
   .image {
@@ -62,11 +63,15 @@
   }
   
    .know-more-button {
-    color: #fff;
+    background: #f4b12a;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
     gap: 5px;
+    cursor: pointer;
   }
   
   .know-more-button:hover {

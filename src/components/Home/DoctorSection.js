@@ -30,7 +30,7 @@ const DoctorSection = () => {
             Greater Faridabad.
           </p>
           <Link to="/about/doctor" className="doctor-section-know-more">
-            Know More
+            Know More About Dr. Kesarwani
           </Link>
         </div>
       </div>

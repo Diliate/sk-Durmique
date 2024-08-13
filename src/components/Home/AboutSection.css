@@ -15,7 +15,7 @@
 .about-content {
   display: flex;
   justify-content: center;
-  max-width: 1350px;
+  max-width: 1400px;
 }
 
 .video-section {
@@ -82,7 +82,12 @@
   }
 
   .know-more {
-    width: 35%;
+    width: auto;
     font-size: 14px;
+  }
+
+  
+  .text-section {
+    width: auto;
   }
 }

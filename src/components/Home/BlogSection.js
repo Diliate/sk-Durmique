@@ -55,7 +55,7 @@ const BlogSection = () => {
   return (
     <div className="blog-section-page">
       <div className="blog-section-skin-care-tips">
-        <h2>Skin Care Tips</h2>
+        <h1>Skin Care Tips</h1>
       </div>
       <div className="blog-section-carousel-wrapper">
         <FaChevronLeft

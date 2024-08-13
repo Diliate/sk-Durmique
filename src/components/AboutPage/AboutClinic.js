@@ -1,12 +1,17 @@
 import React from "react";
-import "./AboutClinic.css"; 
+import "./AboutClinic.css";
 import clinicImage from "../../assets/images/clinic.jpg";
-import otherClinicImage from "../../assets/images/clinic.jpg"; 
+import otherClinicImage from "../../assets/images/clinic.jpg";
 
 const AboutClinic = () => {
   return (
     <>
-      <div className="about-clinic">
+      <div
+        className="about-clinic"
+        style={{
+          minHeight: "500px",
+        }}
+      >
         <section className="our-clinic">
           <div className="clinic-content">
             <div className="clinic-image">

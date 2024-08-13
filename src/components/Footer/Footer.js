@@ -19,7 +19,7 @@ const Footer = () => {
           <p>Skin Hair & Laser Clinic</p>
           <p>Your trusted partner for skincare solutions.</p>
         </div>
-        <div className="footer-section">
+        <div className="footer-section useful-links">
           <h3>Useful Links</h3>
           <ul>
             <li>

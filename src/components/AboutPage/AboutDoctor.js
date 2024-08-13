@@ -5,7 +5,12 @@ import "./AboutDoctor.css";
 function AboutDoctor() {
   return (
     <>
-      <div className="about-doctor-container">
+      <div
+        className="about-doctor-container"
+        style={{
+          minHeight: "500px",
+        }}
+      >
         <h1 className="main-heading">About Dr. Shweta Kesarwani</h1>
         <div className="doctor-content">
           <div className="doctor-details">
@@ -68,7 +73,6 @@ function AboutDoctor() {
                 <li>Regular attendee and speaker at dermatology conferences</li>
               </ul>
             </section>
-           
           </div>
         </div>
       </div>

@@ -60,7 +60,12 @@ const ContactPage = () => {
         </div>
 
         <div className="contact-container">
-          <div className="contact-inner-container">
+          <div
+            className="contact-inner-container"
+            style={{
+              minHeight: "500px",
+            }}
+          >
             <div className="contact-details">
               <h2>Contact Information</h2>
               <div className="contact-item">
@@ -141,6 +146,7 @@ const ContactPage = () => {
                     value={form.message}
                     onChange={handleChange}
                     placeholder="Message"
+                    maxLength="200"
                     required
                   ></textarea>
                 </div>

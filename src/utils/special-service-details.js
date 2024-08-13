@@ -1,4 +1,11 @@
-const images = [
+import image1 from "../assets/images/Specialservice1.jpg";
+import image2 from "../assets/images/Specialservice2.jpg";
+import image3 from "../assets/images/Specialservice3.jpg";
+import image4 from "../assets/images/Specialservice4.jpg";
+import image5 from "../assets/images/Specialservice5.jpg";
+import image6 from "../assets/images/Specialservice6.jpg";
+
+export const specialservicedetails = [
   {
     id: 1,
     src: image1,

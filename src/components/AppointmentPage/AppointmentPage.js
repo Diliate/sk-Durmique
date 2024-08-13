@@ -182,6 +182,9 @@ const AppointmentPage = () => {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
+                    maxLength="200"
+                    cols={50}
+                    rows={4}
                   />
                   {formErrors.message && (
                     <span className="error">{formErrors.message}</span>

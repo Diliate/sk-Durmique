@@ -5,13 +5,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1350px;
+  max-width: 1400px;
   margin: auto;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2.5em;
+  margin-top: -15px;
 }
 
 h2 {

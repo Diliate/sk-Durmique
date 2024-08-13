@@ -18,7 +18,7 @@
 
 .appointment-form-container {
   background: rgba(255, 255, 255, 0.814);
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
   max-width: 40%;
   width: 100%;
@@ -42,13 +42,18 @@
 
 .form-group input,
 .form-group select {
-  width: 85%;
+  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
   right: 1rem;
 }
+
+.form-group textarea{
+  width: 100%;
+}
+
 
 .error {
   color: red;

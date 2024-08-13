@@ -1,76 +1,110 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense, lazy } from "react";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   useLocation,
 } from "react-router-dom";
+import { AuthProvider } from "./contexts/authContext";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import { analytics } from "./firebase/firebase";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
+const Home = lazy(() => import("./components/Home/Home"));
+const ContactPage = lazy(() => import("./components/ContactPage/ContactPage"));
+const AppointmentPage = lazy(() =>
+  import("./components/AppointmentPage/AppointmentPage")
+);
+const Login = lazy(() => import("./components/login/login"));
+const AboutDoctor = lazy(() => import("./components/AboutPage/AboutDoctor"));
+const AboutClinic = lazy(() => import("./components/AboutPage/AboutClinic"));
+const Specialservice = lazy(() =>
+  import("./components/ServicePage/Specialservice")
+);
+const Specialservicedetail = lazy(() =>
+  import("./components/ServicePage/Specialservicedetail")
+);
+const Normalservice = lazy(() =>
+  import("./components/ServicePage/Normalservice")
+);
+const Normalservicedetail = lazy(() =>
+  import("./components/ServicePage/Normalservicedetail")
+);
+const Normalserviceindividual = lazy(() =>
+  import("./components/ServicePage/Normalserviceindividual")
+);
+const Blog = lazy(() => import("./components/Blog/Blogpage"));
+const Testimonial = lazy(() => import("./components/Testimonial/Testimonial"));
 
-import ContactPage from "./components/ContactPage/ContactPage";
-import AppointmentPage from "./components/AppointmentPage/AppointmentPage";
-import { AuthProvider } from "./contexts/authContext";
-import Login from "./components/login/login";
-import { analyticsPromise } from "./firebase/firebase";
+function AppContent() {
+  const location = useLocation();
+  const [, setCurrentPath] = useState(location.pathname);
 
-import AboutDoctor from "./components/AboutPage/AboutDoctor";
-import AboutClinic from "./components/AboutPage/AboutClinic";
+  useEffect(() => {
+    setCurrentPath(location.pathname);
 
-import Specialservice from "./components/ServicePage/Specialservice";
-import Specialservicedetail from "./components/ServicePage/Specialservicedetail";
+    // Debugging the analytics object
+    if (analytics && typeof analytics.logEvent === "function") {
+      analytics.logEvent("page_view", { page_path: location.pathname });
+    } else {
+      console.warn(
+        "Analytics not initialized or logEvent function not available"
+      );
+    }
+  }, [location]);
 
-import Blog from "./components/Blog/Blogpage";
-import Testimonial from "./components/Testimonial/Testimonial";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import Normalservice from "./components/ServicePage/Normalservice";
-import Normalservicedetail from "./components/ServicePage/Normalservicedetail";
-import Normalserviceindividual from "./components/ServicePage/Normalserviceindividual";
-
-function App() {
   return (
-    <AuthProvider>
-      <Router>
-        <ScrollToTop />
+    <>
+      <ScrollToTop />
+      <div className="App">
         <Navbar />
-        <div
-          className="App"
-          style={{
-            minHeight: "500px",
-          }}
+        <Suspense
+          fallback={
+            <div
+              style={{
+                minHeight: "500px",
+              }}
+            >
+              Loading...
+            </div>
+          }
         >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about/clinic" element={<AboutClinic />} />
             <Route path="/about/doctor" element={<AboutDoctor />} />
-
             <Route path="/services/special" element={<Specialservice />} />
             <Route
               path="/services/special/:id"
               element={<Specialservicedetail />}
             />
-
             <Route path="/services/normal" element={<Normalservice />} />
             <Route
               path="/services/normal/:id"
               element={<Normalservicedetail />}
             />
-
             <Route
               path="/services/normal/:id/:title"
               element={<Normalserviceindividual />}
             />
-
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/Testimonial" element={<Testimonial />} />
-
+            <Route path="/testimonial" element={<Testimonial />} />
             <Route path="/appointment" element={<AppointmentPage />} />
             <Route path="/login" element={<Login />} />
           </Routes>
-        </div>
+        </Suspense>
         <Footer />
+      </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <Router>
+        <AppContent />
       </Router>
     </AuthProvider>
   );
