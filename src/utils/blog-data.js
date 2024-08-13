@@ -1,30 +1,51 @@
-import skincareTipsImage from "../assets/images/Servicepic5.png";
-import skinTypesImage from "../assets/images/Servicepic6.png";
-import facialsImage from "../assets/images/Servicepic7.png";
+import acnetreatment from "../assets/images/acnetreatment-blog.png";
+import hairloss from "../assets/images/servicepage8.jpg";
+import skinrejuvenation from "../assets/images/skinrejuvenation-blog.png";
+
+import skincareroutine from "../assets/images/skincareroutine-blog.png";
+
+import antiaging from "../assets/images/antiaging-blog.png";
 
 export const blogData = [
   {
-    title: "Top 5 Skincare Tips for Healthy Skin",
-    image: skincareTipsImage,
-    alt: "Skincare Tips",
+    title:
+      "The Ultimate Guide to Acne Treatment: Solutions for Clear, Radiant Skin",
+    image: acnetreatment,
+    alt: "Acne",
     description:
-      "Discover the top 5 skincare tips to keep your skin healthy and glowing.",
-    url: "/blog1",
+      "Acne is a common skin condition that can affect individuals of all ages, from teenagers to adults. It can be persistent and frustrating, impacting not just your appearance but also your confidence. Understanding the root causes of acne and exploring effective treatment options is crucial for achieving clear, radiant skin. ",
+    url: "",
   },
   {
-    title: "Understanding Different Skin Types",
-    image: skinTypesImage,
-    alt: "Skin Types",
+    title: "Combatting Hair Loss: Proven Treatments and Tips for Healthy Hair",
+    image: hairloss,
+    alt: "Hair Loss",
     description:
-      "Learn about the different skin types and how to tailor your skincare routine.",
-    url: "/blog2",
+      "Hair loss is a common concern that affects both men and women. It can be distressing and impact your self-esteem. However, understanding the causes of hair loss and exploring effective treatments can help restore and maintain healthy, luscious hair. ",
+    url: "",
   },
   {
-    title: "The Benefits of Regular Facials",
-    image: facialsImage,
-    alt: "Facials",
+    title: "The Benefits of Laser Treatments for Skin Rejuvenation",
+    image: skinrejuvenation,
+    alt: "Rejuvenation",
     description:
-      "Find out how facials help in deep cleansing, exfoliation, and rejuvenation.",
-    url: "/blog3",
+      "Laser treatments have become a popular and effective solution for various skin concerns, including wrinkles, pigmentation, and scars. These advanced procedures offer a non-invasive way to rejuvenate and enhance your skin’s appearance.",
+    url: "",
+  },
+  {
+    title: "Essential Skincare Routine for Glowing Skin",
+    image: skincareroutine,
+    alt: "Skincare",
+    description:
+      "A well-rounded skincare routine is essential for maintaining healthy, glowing skin. With the right steps and products, you can achieve and maintain a radiant complexion. Here’s a comprehensive guide to help you build an effective skincare regimen. ",
+    url: "",
+  },
+  {
+    title: "The Truth About Anti-Aging Treatments: What Really Works?",
+    image: antiaging,
+    alt: "Anti Aging",
+    description:
+      "Aging is a natural process, but with the right treatments, you can maintain youthful, radiant skin. There are various anti-aging treatments available that promise to reduce wrinkles, improve skin texture, and enhance overall appearance. Let’s explore what really works. ",
+    url: "",
   },
 ];

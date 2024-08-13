@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { blogData } from "../../utils/blog-data";
 
 function Blogpage() {
+  console.log(blogData);
   return (
     <>
       <div
@@ -19,24 +20,30 @@ function Blogpage() {
             Your source for the latest in skincare tips, treatments, and news.
           </p>
         </header>
-        <section className="blog-content">
-          {blogData.map((blog, index) => (
-            <article className="blog-post" key={index}>
-              <h2>{blog.title}</h2>
-              <p className="post-date">{blog.date}</p>
-              <img
-                src={blog.image}
-                alt={blog.alt}
-                className="post-image"
-                loading="lazy"
-              />
-              <p>{blog.description}</p>
-              <Link to={blog.url} className="read-more">
-                Read more
-              </Link>
-            </article>
-          ))}
-        </section>
+        <div className="blog-inner-container">
+          <section className="blog-content">
+            {blogData.map((blog, index) => (
+              <article key={index} className="blog-post">
+                <div className="blog-image-container">
+                  <img src={blog.image} alt={blog.alt} className="image" />
+                </div>
+                <div className="blog-details">
+                  <div>
+                    <h2>{blog.title}</h2>
+                    <p className="text-limit">{blog.description}</p>
+                  </div>
+                  <a
+                    href="https://medium.com/"
+                    target="_blank"
+                    className="read-more"
+                  >
+                    Read more
+                  </a>
+                </div>
+              </article>
+            ))}
+          </section>
+        </div>
       </div>
     </>
   );
