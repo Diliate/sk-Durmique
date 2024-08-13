@@ -1,4 +1,3 @@
-// src/faq.js
 import React, { useState } from "react";
 import "./faq.css";
 
@@ -23,7 +22,6 @@ const AccordionItem = ({ question, answer }) => {
 };
 
 const FAQ = ({ data }) => {
-  // Split data into two halves
   const midIndex = Math.ceil(data.length / 2);
   const firstHalf = data.slice(0, midIndex);
   const secondHalf = data.slice(midIndex);

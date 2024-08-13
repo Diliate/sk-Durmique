@@ -8,8 +8,8 @@ import AboutSection from "./AboutSection";
 import ServiceSection from "./ServiceSection";
 import BlogSection from "./BlogSection";
 import ReviewSection from "./ReviewSection";
-import FAQ from "../FAQ-page/Faq";
-import { faqData } from "../FAQ-page/faqData";
+import { faqData } from "../FAQ/faqData";
+import FAQ from "../FAQ/Faq";
 
 function Home() {
   return (

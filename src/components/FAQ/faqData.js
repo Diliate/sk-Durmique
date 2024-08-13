@@ -1,5 +1,3 @@
-// src/faqdata.js
-
 export const faqData = [
   {
     question: "What are the most common skin conditions you treat?",
