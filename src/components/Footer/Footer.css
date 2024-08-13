@@ -52,7 +52,6 @@ a:hover {
 .social-media-links{
   display: flex;
   gap: 10px;
-  margin-left: -20px;
 }
 
 .social-media-links li {
