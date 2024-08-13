@@ -41,6 +41,10 @@
     cursor: pointer;
 }
 
+.login-form button:hover{
+    background-color: #0367d2;
+}
+
 .login-form button:disabled {
     background-color: #aaa;
 }
@@ -50,16 +54,6 @@
     color: red;
 }
 
-.register-link {
-    display: block;
-    margin-top: 1rem;
-    color: #007bff;
-    text-decoration: none;
-}
-
-.register-link:hover {
-    text-decoration: underline;
-}
 
 .google-signin-btn {
     display: flex;
@@ -72,6 +66,11 @@
     background-color: white;
     cursor: pointer;
 }
+
+.google-signin-btn:hover{
+    background: #e3e3e3;
+    transition: .2s ease-in-out;
+} 
 
 .google-signin-btn .google-icon {
     margin-right: 0.5rem;

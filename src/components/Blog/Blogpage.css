@@ -58,6 +58,7 @@
   border-radius: 20px;
   padding: 10px;
   display: flex;
+  justify-content: start;
   height: 300px;
   width: 650px;
   gap: 20px;

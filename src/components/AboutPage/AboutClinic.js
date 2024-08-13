@@ -99,12 +99,57 @@ const AboutClinic = () => {
             <iframe
               title="Clinic Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.373793245254!2d77.3299264760197!3d28.407050165845362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1fa7e6317e43%3A0x8f48d8d8a1a20d65!2s123%20Health%20Street%2C%20Greater%20Faridabad!5e0!3m2!1sen!2sin!4v1693914721141!5m2!1sen!2sin"
-              width="600" // Adjusted width
+              width="600"
               height="300"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
             ></iframe>
+          </div>
+
+          <div className="timings">
+            <h1>Timings of Our Clinics</h1>
+            <div className="timings-inner-container">
+              <div className="container-1">
+                <h3>Sk Durmiqe Clinic</h3>
+                <div className="timings-1">
+                  <p>
+                    <span>Days:</span> Monday, Wednesday, Thursday, Saturday
+                  </p>
+                  <p>
+                    <span>Timings:</span> 6pm to 8pm
+                  </p>
+                </div>
+                <div className="timings-2">
+                  <p>
+                    <span>Days:</span> Tuesday & Friday
+                  </p>
+                  <p>
+                    <span>Timings:</span> 6pm to 7:30pm
+                  </p>
+                </div>
+              </div>
+
+              <div className="container-2">
+                <h3>NIT 5 Clinic</h3>
+                <div className="timings-1">
+                  <p>
+                    <span>Days:</span> Monday to Saturday
+                  </p>
+                  <p>
+                    <span>Timings:</span> 10:30 am to 1 pm
+                  </p>
+                </div>
+                <div className="timings-2">
+                  <p>
+                    <span>Days:</span> Tuesday & Friday
+                  </p>
+                  <p>
+                    <span>Timings:</span> 8 pm to 9 pm
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>

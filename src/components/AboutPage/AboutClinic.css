@@ -15,12 +15,11 @@ h1 {
   margin-top: -15px;
 }
 
-h2 {
+.clinic-location h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 2em;
-  margin-top: 40px;
   margin-bottom: 20px;
   text-align: center;
+  font-size: 35px;
 }
 
 .clinic-image img {
@@ -57,6 +56,51 @@ h2 {
 .other-clinic-description p {
   margin-bottom: 15px;
   text-align: justify;
+}
+
+.timings {
+  padding: 30px 30px;
+}
+
+.timings h1 {
+  text-align: center;
+}
+
+.timings-inner-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timings-inner-container h3{
+  font-size: 30px;
+}
+
+.container-1, .container-2{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  padding: 20px;
+  border-radius: 20px;
+  background: #F2F1EB;
+}
+
+.container-1 span, .container-2 span {
+  font-weight: bold;
+}
+
+.timings-inner-container div {
+  width: 520px;
+}
+
+.timings-inner-container div p{
+  font-size: 20px;
+}
+
+.timings-1, .timings-2 {
+  margin-top: 25px;
+}
+
+.timings-1 p, .timings-2 p {
+  margin-top: 8px;
 }
 
 .map-container {
