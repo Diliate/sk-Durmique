@@ -36,17 +36,16 @@ h1 {
   display: flex;
   justify-content: left;
   margin-bottom: 40px;
-  width: 100%;
+  width: 1400px;
+  max-width: 1400px;
 }
+
 
 .clinic-description,
 .other-clinic-description {
   flex: 1.5;
 }
 
-.clinic-description {
-  /* padding-right: 40px; */
-}
 
 .other-clinic-description {
   padding-left: 30px;
@@ -182,9 +181,15 @@ h1 {
 
   .clinic-description,
   .other-clinic-description {
+    width: auto;
     max-width: 100%;
     text-align: center;
   }
+
+  .clinic-content,
+.other-clinic-content {
+  width: auto;
+}
 
   .clinic-description p,
   .other-clinic-description p {
