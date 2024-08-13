@@ -8,6 +8,8 @@ import AboutSection from "./AboutSection";
 import ServiceSection from "./ServiceSection";
 import BlogSection from "./BlogSection";
 import ReviewSection from "./ReviewSection";
+import FAQ from "../FAQ-page/Faq";
+import { faqData } from "../FAQ-page/faqData";
 
 function Home() {
   return (
@@ -41,6 +43,9 @@ function Home() {
       <DoctorSection />
       <BlogSection />
       <ReviewSection />
+      <div className="faq-container">
+        <FAQ data={faqData} />
+      </div>
     </>
   );
 }
