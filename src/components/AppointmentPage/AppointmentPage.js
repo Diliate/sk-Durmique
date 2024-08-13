@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./AppointmentPage.css";
 import backgroundImage from "../../assets/images/background.jpg";
-// import clinicImage from "../../assets/images/clinic.jpg";
 import { db } from "../../firebase/firebase";
 import { collection, addDoc } from "firebase/firestore";
 

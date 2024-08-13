@@ -105,6 +105,7 @@
   border-radius: 0px;
   cursor: pointer;
   border-radius: 23px 23px 23px 23px ;
+  margin-left: 7.6rem;
 
 }
 
@@ -115,5 +116,12 @@
 @media (max-width: 480px) {
   .services-image-grid {
     grid-template-columns: 1fr;
+  }
+  .services-page {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

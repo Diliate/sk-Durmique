@@ -61,6 +61,7 @@
 .navbar-links ul {
   display: flex;
   list-style: none;
+  margin-left: 1.3rem;
 }
 
 .navbar-links li {
@@ -176,6 +177,7 @@
   .navbar-links ul {
     flex-direction: column;
     align-items: stretch; /* Stretches the submenu items to the full width */
+    
   }
 
   .navbar-links li {
