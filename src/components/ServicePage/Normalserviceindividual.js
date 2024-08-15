@@ -10,6 +10,8 @@ const Normalserviceindividual = () => {
   const image = normalserviceindividual.find((img) => img.id === parseInt(id));
   const imageIndex = image?.details.titles.indexOf(decodedTitle);
 
+  console.log(image);
+
   return (
     <div className="normalserviceindividual-container">
       <div
@@ -34,8 +36,12 @@ const Normalserviceindividual = () => {
                 className="individual-image"
               />
               <div>
-                <h1>{decodedTitle}</h1>
-                <p>{image.details.description[imageIndex]}</p>
+                {/* {description.detail.map((detail, index) => (
+                <h1>{detail.}</h1>
+              ))} */}
+                {/* <h1>{decodedTitle}</h1> */}
+
+                {/* <p>{image.details.description[imageIndex]}</p> */}
               </div>
             </div>
           ) : (

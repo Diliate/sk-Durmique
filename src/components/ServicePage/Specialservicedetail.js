@@ -33,7 +33,19 @@ function Specialservicedetail() {
               </div>
             </div>
 
-            <p className="extra-details">{image.extra}</p>
+            <h3 className="special-service-ques">{image.ques}</h3>
+            <div className="special-service-ans-container">
+              {image.answers.map((ans, index) => (
+                <ul key={index} className="special-service-answers">
+                  <li>{ans}</li>
+                </ul>
+              ))}
+            </div>
+            <div className="special-service-conclusion">
+              <span>***</span>
+              <p>{image.conclusion}</p>
+              <span>***</span>
+            </div>
           </div>
         ) : (
           <p>Image not found</p>
