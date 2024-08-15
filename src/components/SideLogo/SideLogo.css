@@ -1,0 +1,67 @@
+.logo-sticky {
+    position: fixed;
+    top: 40%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+  }
+  
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 5px;
+    background-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .facebook {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  .instagram {
+    background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    cursor: pointer;
+  }
+  
+  .icon {
+    color: white;
+    height: 25px;
+    width: 25px;
+    transition: color 0.7s ease;
+    z-index: 2;
+  }
+  
+  .icon-box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon-box:hover::before {
+    width: 300%;
+    height: 300%;
+  }
+  
+  .icon-box:hover .icon-facebook {
+    color: blue;
+  }
+  
+  .icon-box:hover .icon-instagram {
+    color: #dd2a7b;
+  }
+  

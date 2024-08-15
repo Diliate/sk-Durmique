@@ -10,6 +10,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { analytics } from "./firebase/firebase";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import SideLogo from "./components/SideLogo/SideLogo";
 const Home = lazy(() => import("./components/Home/Home"));
 const ContactPage = lazy(() => import("./components/ContactPage/ContactPage"));
 const AppointmentPage = lazy(() =>
@@ -56,6 +57,7 @@ function AppContent() {
   return (
     <>
       <ScrollToTop />
+      <SideLogo />
       <div className="App">
         <Navbar />
         <Suspense
