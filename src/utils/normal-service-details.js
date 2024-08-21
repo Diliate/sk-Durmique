@@ -5,34 +5,67 @@ import image4 from "../assets/images/Specialservice4.jpg";
 import image5 from "../assets/images/Specialservice5.jpg";
 import image6 from "../assets/images/Specialservice6.jpg";
 
-// Skin Care Images
-import acne from "../assets/images/servicedk1.jpeg";
-import melasma from "../assets/images/servicepage2.jpg";
-import pigmentation from "../assets/images/servicepage5.jpg";
-import freckles from "../assets/images/servicepage4.jpg";
-import pores from "../assets/images/servicepage1.jpg";
-import skintag from "../assets/images/servicepage6.jpg";
-import stretchmarks from "../assets/images/servicepage7.jpg";
-
-// Hair Care Images
-import hairloss from "../assets/images/servicepage8.jpg";
-import greyhair from "../assets/images/servicepage9.jpg";
-import dandruff from "../assets/images/servicepage10.jpg";
-
-// Common Skin Problems
-import vitiligo from "../assets/images/vitilligo.png";
-import psoriasis from "../assets/images/psoriasis.png";
-import fungal from "../assets/images/fungal-infection.png";
-import bacterial from "../assets/images/bacterial-infection.png";
-import eczema from "../assets/images/eczema.png";
-import warts from "../assets/images/servicepage6.jpg";
-
 // SKIN REJUVINATION
 import dermaroller from "../assets/images/servicepage17.jpg";
 
 // OLD AGE RELATED SKIN PROBLEMS
 import antiwrinkle from "../assets/images/servicepage18.jpg";
 import mnrf from "../assets/images/servicepage12.jpg";
+
+// approved images
+
+// 1. skin care
+import acnes from "../assets/new_images/acne_.png";
+import melasma from "../assets/new_images/melasma.jpg";
+import pigmentation from "../assets/new_images/pigmentation_on_face.png";
+import freckles from "../assets/new_images/freckled.jpg";
+import open_pores from "../assets/new_images/open_pores.png";
+import skin_tags from "../assets/new_images/skin-tags.png";
+import stretch_marks from "../assets/new_images/stretch-marks.jpg";
+
+// 2. Hair Care
+import hairfall from "../assets/new_images/hair_fall.jpg";
+import premature from "../assets/new_images/premature_graying.jpg";
+import dandruff from "../assets/new_images/dandruff.avif";
+
+// 3. common skin problems
+import vitiligo from "../assets/new_images/vitiligo.jpg";
+import psoriasis from "../assets/new_images/psoriasis (2).png";
+import fungal from "../assets/new_images/-Fungus-infection.jpeg";
+import bacterial from "../assets/new_images/bacterial_infection.jpg";
+import eczema from "../assets/new_images/Eczema.jpg";
+import moles from "../assets/new_images/mole.png";
+
+// 4. skin rejuvenation
+// import dermapeel from "../assets/new_images/";
+// import aquafacial from "../assets/new_images/";
+import photofacial from "../assets/new_images/Photofacial.jpg";
+import carbonfacial from "../assets/new_images/Carbon_facial.jpg";
+// import rftoning from "../assets/new_images/";
+// import lasertoning from "../assets/new_images/laser";
+// import mesotherapy from "../assets/new_images/";
+// import dermaroller from "../assets/new_images/";
+// import mnrf from "../assets/new_images/mn";
+// import mesotherapy from "../assets/new_images/m";
+// import prp from "../assets/new_images/gfc.jpg";
+
+// 5. Pediatric Skin Problems
+import atopic from "../assets/new_images/atopic_dermetitis.png";
+import cradlecap from "../assets/new_images/Cradle_Cap.jpg";
+import recurrent from "../assets/new_images/recurrent_skin_infection.jpg";
+import alba from "../assets/new_images/pityriasis-alba.jpg";
+
+// 6. Mesotherapy
+// import antiWrinkle from "../assets/new_images/wr";
+// import dermafillers from "../assets/new_images/der";
+// import mnrf from "../assets/new_images/mn";
+// import prp from "../assets/new_images/gfc.jpg";
+
+// 7. Old age skin related problems
+// import dryness from "../assets/new_images/dr";
+// import chronicItch from "../assets/new_images/m";  //unexplained itching all over body
+// import senilePurpura from "../assets/new_images/pur";
+// import senileComedones from "../assets/new_images/comde";
 
 export const normalservicedetails = [
   {
@@ -41,13 +74,13 @@ export const normalservicedetails = [
     title: "Skin Care",
     details: {
       images: [
-        acne,
+        acnes,
         melasma,
         pigmentation,
         freckles,
-        pores,
-        skintag,
-        stretchmarks,
+        open_pores,
+        skin_tags,
+        stretch_marks,
       ],
       titles: [
         "Acnes & Acnescar",
@@ -65,7 +98,7 @@ export const normalservicedetails = [
     src: image2,
     title: "Hair Care",
     details: {
-      images: [hairloss, greyhair, dandruff],
+      images: [hairfall, premature, dandruff],
       titles: [
         "Hairfall or Hairloss",
         "Premature greying of scalp hair",
@@ -78,7 +111,7 @@ export const normalservicedetails = [
     src: image3,
     title: "Common Skin Problems",
     details: {
-      images: [vitiligo, psoriasis, fungal, bacterial, eczema, warts],
+      images: [vitiligo, psoriasis, fungal, bacterial, eczema, moles],
       titles: [
         "Vitiligo",
         "Psoriasis",
@@ -97,8 +130,8 @@ export const normalservicedetails = [
       images: [
         dermaroller,
         dermaroller,
-        dermaroller,
-        dermaroller,
+        photofacial,
+        carbonfacial,
         dermaroller,
         dermaroller,
         dermaroller,
@@ -125,7 +158,7 @@ export const normalservicedetails = [
     src: image5,
     title: "Pediatric Skin Problems",
     details: {
-      images: [dermaroller, dermaroller, dermaroller, dermaroller, dermaroller],
+      images: [atopic, cradlecap, recurrent, alba, premature],
       titles: [
         "Atopic Dermatitis",
         "Cradle Cap",
