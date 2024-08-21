@@ -11,15 +11,12 @@ const Normalserviceindividual = () => {
   const { id, title } = useParams();
   const decodedTitle = decodeURIComponent(title);
 
-  // Find the selected service based on ID
   const service = normalserviceindividual.find(
     (svc) => svc.id === parseInt(id)
   );
 
-  // Check if service exists and get the index of the selected title
   const detailIndex = service?.details.titles.indexOf(decodedTitle);
 
-  // Ensure we have a valid detail index
   if (
     !service ||
     detailIndex === -1 ||
@@ -43,23 +40,35 @@ const Normalserviceindividual = () => {
         <div className="content-container">
           <div className="content">
             <img
-              src={service.details.images[detailIndex]} // Fallback to default image if index is invalid
+              src={service.details.images[detailIndex]}
               alt={decodedTitle}
               className="individual-image"
             />
-            <div>
+            <div className="main-details">
               <h1>{detail.heading}</h1>
               {detail.paras.map((para, index) => (
                 <p key={index}>{para}</p>
               ))}
-              <h2>{detail.ques}</h2>
-              <ul>
-                {detail.answers.map((answer, index) => (
-                  <li key={index}>{answer}</li>
-                ))}
-              </ul>
-              <p>{detail.conclusion}</p>
             </div>
+          </div>
+          <div className="extra-details">
+            <div>
+              <h2>{detail.ques}</h2>
+              <div className="answers">
+                {detail.answers.map((answer, index) => (
+                  <p key={index}>{answer}</p>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h2>{detail?.treatment?.title}</h2>
+              <div className="answers">
+                {detail?.treatment?.para.map((para, index) => (
+                  <p key={index}>{para}</p>
+                ))}
+              </div>
+            </div>
+            <p className="conclusions">{detail.conclusion}</p>
           </div>
         </div>
       </div>

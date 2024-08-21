@@ -46,7 +46,6 @@ export const normalserviceindividual = [
         "Skin tags",
         "Stretch marks",
       ],
-      // description: [
       //   "Lorem ipsum dolor sit amet, consectetur venenatis, dictum nisi congue, interdum nibh Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed malesuada imperdiet nisl eget interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vulputate purus ipsum. Phasellus interdum tellus vitae tellus viverra, ac accumsan risus vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc et nisi at enim hendrerit congue ut pretium orci. Vivamus consectetur malesuada efficitur. Sed vel eros eget arcu auctor gravida sed at orci. Morbi malesuada interdum nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed malesuada imperdiet nisl eget interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vulputate purus ipsum. Phasellus interdum tellus vitae tellus viverra, ac accumsan risus vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc et nisi at enim hendrerit congue ut pretium orci. Vivamus consectetur malesuada efficitur. Sed vel eros eget arcu auctor gravida sed at orci. Morbi malesuada varius mauris, non viverra augue pharetra ut. Nam eros lacus, elementum sit amet interdum sit amet, laoreet nec justo. Duis ac nibh in mauris lacinia viverra ultricies pharetra lectus. Cras dignissim accumsan arcu in facilisis. Nulla at feugiat nibh. Morbi vitae ligula libero. Nullam facilisis velit id lectus fermentum molestie. Praesent eleifend, ante eget blandit volutpat, dui augue varius massa, nec aliquam est risus at lorem. Integer non consequat augue. Phasellus id enim non magna luctus faucibus vitae at orci. Sed vestibulum efficitur Nam eros lacus, elementum sit amet interdum sit amet, laoreet nec justo. Duis ac nibh in mauris lacinia viverra ultricies pharetra lectus. Cras dignissim accumsan arcu in facilisis. Nulla at feugiat nibh. Morbi vitae ligula libero. Nullam facilisis velit id lectus fermentum molestie. Praesent eleifend, ante eget blandit volutpat, dui augue varius massa, nec aliquam est risus at lorem. Integer non consequat augue. Phasellus id enim non magna luctus faucibus vitae at orci. Sed vestibulum efficitur.",
       //   "Melasma description",
       //   "Pigmentation on face description",
@@ -66,13 +65,13 @@ export const normalserviceindividual = [
               ],
               ques: "We offer a variety of advanced treatment options tailored to meet your specific needs:",
               answers: [
-                "Topical Gels: These are designed to target acne-causing bacteria and reduce inflammation, helping to clear your skin and prevent new breakouts.",
+                "1. Topical Gels: These are designed to target acne-causing bacteria and reduce inflammation, helping to clear your skin and prevent new breakouts.",
 
-                "Oral Medications: In some cases, oral medications may be prescribed to balance hormones or fight infections from within, providing a more holistic approach to acne treatment.",
+                "2. Oral Medications: In some cases, oral medications may be prescribed to balance hormones or fight infections from within, providing a more holistic approach to acne treatment.",
 
-                "Chemical Peels or Dermapeels: These treatments help to exfoliate the skin, remove dead cells, and unclog pores, leading to a smoother and clearer complexion.",
+                "3. Chemical Peels or Dermapeels: These treatments help to exfoliate the skin, remove dead cells, and unclog pores, leading to a smoother and clearer complexion.",
 
-                "Laser Treatments for Acne: Utilizing advanced laser technology, this treatment targets acne at its source, reducing inflammation and minimizing the risk of scarring.",
+                "4. Laser Treatments for Acne: Utilizing advanced laser technology, this treatment targets acne at its source, reducing inflammation and minimizing the risk of scarring.",
               ],
               conclusion:
                 "At SK Durmiqe Clinic, we believe in personalized care. Our expert dermatologist Dr. Shweta Kesarwani works closely with each patient to develop a treatment plan that not only addresses their current skin concerns but also promotes long-term skin health. Let us help you achieve the clear, healthy skin you deserve.",
@@ -90,17 +89,17 @@ export const normalserviceindividual = [
               ],
               ques: "At SK Durmiqe , we offer a variety of advanced treatment options tailored to manage and treat melasma effectively:",
               answers: [
-                "Topical Creams and Ointments: These are designed to lighten dark patches and even out skin tone.",
+                "1. Topical Creams and Ointments: These are designed to lighten dark patches and even out skin tone.",
 
-                "Oral Medications: Prescribed to address underlying causes and enhance the effectiveness of topical treatments.",
+                "2. Oral Medications: Prescribed to address underlying causes and enhance the effectiveness of topical treatments.",
 
-                "Chemical Peels: This treatment exfoliates the skin, helping to fade melasma spots and promote a clearer complexion.",
+                "3. Chemical Peels: This treatment exfoliates the skin, helping to fade melasma spots and promote a clearer complexion.",
 
-                "Laser Treatments for Pigmentation: Utilizing cutting-edge laser technology, this treatment targets and breaks down pigment, reducing the visibility of melasma.",
+                "4. Laser Treatments for Pigmentation: Utilizing cutting-edge laser technology, this treatment targets and breaks down pigment, reducing the visibility of melasma.",
 
-                "Meso Injections: Specialized injections deliver skin-lightening agents directly to the affected areas for targeted treatment.",
+                "5. Meso Injections: Specialized injections deliver skin-lightening agents directly to the affected areas for targeted treatment.",
 
-                "PRP (Platelet-Rich Plasma) Therapy: A rejuvenating procedure that uses the body’s own growth factors to improve skin tone and reduce pigmentation.",
+                "6. PRP (Platelet-Rich Plasma) Therapy: A rejuvenating procedure that uses the body’s own growth factors to improve skin tone and reduce pigmentation.",
               ],
               conclusion:
                 "At SK Durmiqe, we understand the emotional impact that melasma can have on a patient’s life. Under the expert guidance of Dr. Shweta Kesarwani, our clinic provides personalized treatment plans that not only address the symptoms of melasma but also help prevent its recurrence. Our goal is to restore your skin’s natural clarity and boost your confidence. If you’re dealing with melasma, SK Durmiqe is here to help. Our advanced treatments and personalized care are designed to give you the best possible outcomes.",
@@ -119,17 +118,17 @@ export const normalserviceindividual = [
               ],
               ques: "Our treatment options include:",
               answers: [
-                "Topical Creams and Ointments: These formulations are specifically designed to lighten pigmented areas and even out skin tone, providing a more uniform complexion.",
+                "1. Topical Creams and Ointments: These formulations are specifically designed to lighten pigmented areas and even out skin tone, providing a more uniform complexion.",
 
-                "Oral Medications: In certain cases, oral medications may be prescribed to address underlying causes and enhance the effectiveness of topical treatments.",
+                "2. Oral Medications: In certain cases, oral medications may be prescribed to address underlying causes and enhance the effectiveness of topical treatments.",
 
-                "Chemical Peels: This treatment helps to exfoliate the skin, removing the top layer of dead cells and reducing the appearance of pigmented patches.",
+                "3. Chemical Peels: This treatment helps to exfoliate the skin, removing the top layer of dead cells and reducing the appearance of pigmented patches.",
 
-                "Laser Treatments for Pigmentation: Advanced laser technology targets and breaks down excess pigment, leading to a more even skin tone.",
+                "4. Laser Treatments for Pigmentation: Advanced laser technology targets and breaks down excess pigment, leading to a more even skin tone.",
 
-                "Meso Injections: These specialized injections deliver skin-lightening agents directly to the affected areas, offering targeted and effective treatment.",
+                "5. Meso Injections: These specialized injections deliver skin-lightening agents directly to the affected areas, offering targeted and effective treatment.",
 
-                "PRP (Platelet-Rich Plasma) Therapy: A rejuvenating procedure that uses your body’s own growth factors to improve skin tone and reduce pigmentation.",
+                "6. PRP (Platelet-Rich Plasma) Therapy: A rejuvenating procedure that uses your body’s own growth factors to improve skin tone and reduce pigmentation.",
               ],
               conclusion:
                 "At SK Durmiqe, our team, led by Dr. Shweta Kesarwani, provides personalized care tailored to each patient’s unique needs. We are committed to helping you achieve clear, radiant skin and restoring your confidence. If pigmentation is affecting your life, SK Durmiqe is here to offer expert guidance and advanced treatment solutions.",
@@ -147,19 +146,19 @@ export const normalserviceindividual = [
               ],
               ques: "Our treatment options include:",
               answers: [
-                "Daily Use of Sunscreen: Preventing freckles starts with proper sun protection. Regular use of a broad-spectrum sunscreen can help prevent the formation of new freckles and protect your skin from harmful UV rays.",
+                "1. Daily Use of Sunscreen: Preventing freckles starts with proper sun protection. Regular use of a broad-spectrum sunscreen can help prevent the formation of new freckles and protect your skin from harmful UV rays.",
 
-                "Topical Creams: Specially formulated creams can help lighten freckles and even out skin tone over time.",
+                "2. Topical Creams: Specially formulated creams can help lighten freckles and even out skin tone over time.",
 
-                "Chemical Peels: This treatment exfoliates the skin, helping to fade freckles and improve overall skin texture.",
+                "3. Chemical Peels: This treatment exfoliates the skin, helping to fade freckles and improve overall skin texture.",
 
-                "Retinols: These vitamin A derivatives promote cell turnover, reducing the appearance of freckles and other pigmentation issues.",
+                "4. Retinols: These vitamin A derivatives promote cell turnover, reducing the appearance of freckles and other pigmentation issues.",
 
-                "Q-Switched Laser: Advanced laser technology specifically targets and breaks down the pigment in freckles, leading to a clearer complexion.",
+                "5. Q-Switched Laser: Advanced laser technology specifically targets and breaks down the pigment in freckles, leading to a clearer complexion.",
 
-                "PRP (Platelet-Rich Plasma) Therapy: A rejuvenating treatment that uses your body’s own growth factors to enhance skin tone and reduce pigmentation.",
+                "6. PRP (Platelet-Rich Plasma) Therapy: A rejuvenating treatment that uses your body’s own growth factors to enhance skin tone and reduce pigmentation.",
 
-                "Mesotherapy: This treatment delivers skin-lightening agents directly to the affected areas, offering targeted and effective results.",
+                "7. Mesotherapy: This treatment delivers skin-lightening agents directly to the affected areas, offering targeted and effective results.",
               ],
               conclusion:
                 "Under the guidance of Dr. Shweta Kesarwani, SK Durmiqe provides personalized treatment plans tailored to your specific needs. Our goal is to help you achieve clear, healthy skin that boosts your confidence.",
@@ -177,25 +176,25 @@ export const normalserviceindividual = [
               ],
               ques: "10 Best Ways to Reduce Open Pores/Large Pores:",
               answers: [
-                "Always Wear Gel-Based Sunscreen: Protect your skin from sun damage, which can worsen the appearance of pores.",
+                "1. Always Wear Gel-Based Sunscreen: Protect your skin from sun damage, which can worsen the appearance of pores.",
 
-                "Use Water-Based Moisturizer: Keep your skin hydrated without adding excess oil, which can clog pores.",
+                "2. Use Water-Based Moisturizer: Keep your skin hydrated without adding excess oil, which can clog pores.",
 
-                "Choose Gel-Based Cleanser: A gentle, gel-based cleanser helps control oil production and keeps pores clear.",
+                "3. Choose Gel-Based Cleanser: A gentle, gel-based cleanser helps control oil production and keeps pores clear.",
 
-                "Opt for Water-Based Makeup Products: These products are less likely to clog pores and exacerbate the problem.",
+                "4. Opt for Water-Based Makeup Products: These products are less likely to clog pores and exacerbate the problem.",
 
-                "Wash Your Face Regularly: Cleansing twice daily helps remove excess oil and impurities that can enlarge pores.",
+                "5. Wash Your Face Regularly: Cleansing twice daily helps remove excess oil and impurities that can enlarge pores.",
 
-                "Remove Makeup Before Sleep: Always cleanse your skin before bed to prevent makeup from clogging pores overnight.",
+                "6. Remove Makeup Before Sleep: Always cleanse your skin before bed to prevent makeup from clogging pores overnight.",
 
-                "Avoid Scrubbing on Face: Over-scrubbing can irritate the skin and make pores appear larger.",
+                "7. Avoid Scrubbing on Face: Over-scrubbing can irritate the skin and make pores appear larger.",
 
-                "Hydrate Yourself and Eat Healthily: Drinking plenty of water and eating fruits and vegetables helps maintain skin health.",
+                "8. Hydrate Yourself and Eat Healthily: Drinking plenty of water and eating fruits and vegetables helps maintain skin health.",
 
-                "Use Exfoliating Cream (Prescribed by Dermatologist): Exfoliation can help remove dead skin cells and minimize the appearance of pores.",
+                "9. Use Exfoliating Cream (Prescribed by Dermatologist): Exfoliation can help remove dead skin cells and minimize the appearance of pores.",
 
-                "Consult Your Dermatologist: Professional advice is crucial for selecting the best treatments to reduce large pores.",
+                "10. Consult Your Dermatologist: Professional advice is crucial for selecting the best treatments to reduce large pores.",
               ],
               conclusion:
                 "At SK Durmiqe, our expert dermatologist Dr. Shweta Kesarwani, provides personalized care and advanced treatments to help you achieve smoother, healthier skin.",
@@ -216,7 +215,7 @@ export const normalserviceindividual = [
               ],
               ques: "Why Avoid Home Remedies?",
               answers: [
-                "It is important to avoid using home remedies or over-the-counter acids to remove skin tags. These methods can cause burns, infections, and unsightly scars. Attempting to remove skin tags at home can also lead to unnecessary complications, making it crucial to seek the expertise of a dermatologist for proper treatment.",
+                "1. It is important to avoid using home remedies or acids to remove skin tags. These methods can cause burns, infections, and unsightly scars. Attempting to remove skin tags at home can also lead to unnecessary complications, making it crucial to seek the expertise of a dermatologist for proper treatment.",
               ],
               conclusion:
                 "At SK Durmiqe Clinic, our expert dermatologist Dr. Shweta Kesarwani is skilled in the safe and effective removal of skin tags. If you have skin tags that you would like removed, we encourage you to schedule a consultation. Our expert dermatologist is dedicated to providing the best care possible, ensuring that your skin remains healthy and looks its best.",
@@ -237,13 +236,13 @@ export const normalserviceindividual = [
               ],
               ques: "Treatment options available at SK Durmiqe include:",
               answers: [
-                "•	Topical Creams and Ointments: Specially formulated products that help improve skin texture and reduce the appearance of stretch marks.",
+                "1. Topical Creams and Ointments: Specially formulated products that help improve skin texture and reduce the appearance of stretch marks.",
 
-                "Laser Therapy: Advanced laser treatments target the deeper layers of the skin, stimulating collagen production and promoting skin renewal.",
+                "2. Laser Therapy: Advanced laser treatments target the deeper layers of the skin, stimulating collagen production and promoting skin renewal.",
 
-                "Microneedling: This minimally invasive procedure encourages the skin’s natural healing process, improving the texture and tone of stretch marks.",
+                "3. Microneedling: This minimally invasive procedure encourages the skin’s natural healing process, improving the texture and tone of stretch marks.",
 
-                "PRP (Platelet-Rich Plasma) Therapy: A rejuvenating treatment that uses your body’s own growth factors to enhance skin repair and reduce the appearance of stretch marks.",
+                "4. PRP (Platelet-Rich Plasma) Therapy: A rejuvenating treatment that uses your body’s own growth factors to enhance skin repair and reduce the appearance of stretch marks.",
               ],
               conclusion:
                 "For a thorough consultation and personalized treatment plan, visit SK Durmiqe Clinic. Our expert team, led by Dr. Shweta Kesarwani, is dedicated to helping you achieve the best possible results.",
@@ -305,19 +304,21 @@ export const normalserviceindividual = [
               ],
               ques: "Understanding the Causes:",
               answers: [
-                "Genetics: A strong genetic predisposition can lead to early greying, making it more challenging to manage.",
+                "1. Genetics: A strong genetic predisposition can lead to early greying, making it more challenging to manage.",
 
-                "Nutritional Deficiencies: A lack of essential vitamins and minerals, often due to poor dietary habits, can contribute to the early loss of hair pigment.",
+                "2. Nutritional Deficiencies: A lack of essential vitamins and minerals, often due to poor dietary habits, can contribute to the early loss of hair pigment.",
 
-                "Environmental Factors: Exposure to pollution and other environmental toxins can damage hair, leading to premature greying.",
+                "3. Environmental Factors: Exposure to pollution and other environmental toxins can damage hair, leading to premature greying.",
 
-                "Hairstyling Chemicals: Frequent use of harsh chemicals in hairstyling products can weaken hair follicles and speed up the greying process.",
+                "4. Hairstyling Chemicals: Frequent use of harsh chemicals in hairstyling products can weaken hair follicles and speed up the greying process.",
               ],
 
               treatment: {
                 title: "Treatment Options at SK Durmiqe Clinic:",
 
-                para: "Our approach to treating premature greying is comprehensive and tailored to each patient’s needs. We focus on addressing the underlying causes through a combination of dietary advice, supplements, and treatments designed to restore hair health. our expert dermatologist Dr. Shweta Kesarwani will work closely with you to develop a treatment plan that not only targets the greying but also promotes overall scalp and hair health.",
+                para: [
+                  "Our approach to treating premature greying is comprehensive and tailored to each patient’s needs. We focus on addressing the underlying causes through a combination of dietary advice, supplements, and treatments designed to restore hair health. our expert dermatologist Dr. Shweta Kesarwani will work closely with you to develop a treatment plan that not only targets the greying but also promotes overall scalp and hair health.",
+                ],
               },
 
               conclusion:
@@ -405,11 +406,12 @@ export const normalserviceindividual = [
                 "Psoriasis is a chronic skin condition characterized by the rapid buildup of skin cells, which leads to the formation of thick, silvery scales and itchy, dry patches. This condition is more than just a skin problem; it is believed to be an autoimmune disorder, where the immune system mistakenly attacks healthy skin cells, causing the accelerated skin cell turnover. The exact cause of psoriasis is not fully understood, but it is thought to involve a combination of genetic and environmental factors.",
 
                 "Triggers for Psoriasis:",
-                "1.	Infections: Bacterial and viral infections can stimulate the immune system, potentially leading to flare-ups of psoriasis.",
 
-                "2.	Stress: Emotional and physical stress is known to worsen psoriasis symptoms. Stress management techniques may be beneficial in controlling the condition.",
+                "•	Infections: Bacterial and viral infections can stimulate the immune system, potentially leading to flare-ups of psoriasis.",
 
-                "3.	Cold Weather: The dry air and lack of sunlight during colder months can aggravate psoriasis, leading to more severe symptoms.",
+                "•	Stress: Emotional and physical stress is known to worsen psoriasis symptoms. Stress management techniques may be beneficial in controlling the condition.",
+
+                "•	Cold Weather: The dry air and lack of sunlight during colder months can aggravate psoriasis, leading to more severe symptoms.",
               ],
               ques: "Treatment Options for Psoriasis:",
               answers: [
@@ -450,7 +452,9 @@ export const normalserviceindividual = [
               treatment: {
                 title: "Importance of Consulting a Dermatologist:",
 
-                para: "For proper diagnosis and treatment, it is essential to consult a dermatologist. A qualified dermatologist can identify the specific type of fungal infection and prescribe the appropriate antifungal medications. In some cases, oral medications may be necessary to fully eliminate the infection. Early and effective treatment can prevent the spread of the infection and reduce the risk of complications.",
+                para: [
+                  "For proper diagnosis and treatment, it is essential to consult a dermatologist. A qualified dermatologist can identify the specific type of fungal infection and prescribe the appropriate antifungal medications. In some cases, oral medications may be necessary to fully eliminate the infection. Early and effective treatment can prevent the spread of the infection and reduce the risk of complications.",
+                ],
               },
               conclusion:
                 "At SK Durmiqe Clinic, our expert dermatologist Dr. Shweta Kesarwani is experienced in treating fungal infections and can provide personalized care to ensure a full recovery.",
@@ -478,7 +482,9 @@ export const normalserviceindividual = [
               treatment: {
                 title: "Why Proper Treatment is Essential:",
 
-                para: "Bacterial skin infections, if left untreated, can lead to more severe complications, including the spread of infection to other parts of the body. This is especially true for individuals with weakened immune systems, such as the elderly, children, and diabetics. Recurrent infections can be particularly challenging to manage and may require a more comprehensive treatment approach, including antibiotics, proper wound care, and sometimes surgical intervention.",
+                para: [
+                  "Bacterial skin infections, if left untreated, can lead to more severe complications, including the spread of infection to other parts of the body. This is especially true for individuals with weakened immune systems, such as the elderly, children, and diabetics. Recurrent infections can be particularly challenging to manage and may require a more comprehensive treatment approach, including antibiotics, proper wound care, and sometimes surgical intervention.",
+                ],
               },
               conclusion:
                 "At SK Durmiqe Clinic, our expert dermatologist Dr. Shweta Kesarwani specialize in diagnosing and treating bacterial skin infections. We provide personalized care to ensure that the infection is fully resolved and to prevent future occurrences. If you or a loved one is experiencing symptoms of a bacterial skin infection, it is crucial to seek medical attention promptly to ensure proper treatment and recovery.",
@@ -510,7 +516,9 @@ export const normalserviceindividual = [
               treatment: {
                 title: "Why See a Dermatologist?",
 
-                para: "If you or a loved one is experiencing symptoms of eczema, it is essential to consult a dermatologist. A dermatologist can help identify the underlying causes and develop a personalized treatment plan to manage the condition effectively. Treatment options may include moisturizing creams, topical corticosteroids, and other medications to reduce inflammation and control itching.",
+                para: [
+                  "If you or a loved one is experiencing symptoms of eczema, it is essential to consult a dermatologist. A dermatologist can help identify the underlying causes and develop a personalized treatment plan to manage the condition effectively. Treatment options may include moisturizing creams, topical corticosteroids, and other medications to reduce inflammation and control itching.",
+                ],
               },
               conclusion:
                 "At SK Durmiqe Clinic, our expert dermatologist Dr. Shweta Kesarwani is experienced in treating eczema and can provide the care you need to manage this condition and improve your quality of life.",
@@ -529,9 +537,9 @@ export const normalserviceindividual = [
               ],
               ques: "Treatment for Moles & Warts:",
               answers: [
-                "Moles are generally benign and do not require treatment unless they show signs of change, such as rapid growth, irregular borders, or unusual color, which could indicate a more serious condition. However, if you are concerned about the appearance of a mole or if it is in a location that causes discomfort, it can be safely removed by a dermatologist. Common removal methods include surgical excision or laser therapy. For more information, or to discuss your options, kindly visit our clinic.",
+                "• Moles are generally benign and do not require treatment unless they show signs of change, such as rapid growth, irregular borders, or unusual color, which could indicate a more serious condition. However, if you are concerned about the appearance of a mole or if it is in a location that causes discomfort, it can be safely removed by a dermatologist. Common removal methods include surgical excision or laser therapy. For more information, or to discuss your options, kindly visit our clinic.",
 
-                "Warts can be treated with a variety of methods, depending on their size and location. Common treatments include topical creams and solutions that work to dissolve the wart over time. In some cases, surgical excision may be necessary to remove larger or more stubborn warts. Because warts are contagious, early treatment is recommended to prevent spreading the infection to others.",
+                "• Warts can be treated with a variety of methods, depending on their size and location. Common treatments include topical creams and solutions that work to dissolve the wart over time. In some cases, surgical excision may be necessary to remove larger or more stubborn warts. Because warts are contagious, early treatment is recommended to prevent spreading the infection to others.",
               ],
               conclusion:
                 "For more information on mole and wart removal, and to discuss the best treatment options for your needs, please visit SK Durmiqe Clinic.",
@@ -738,17 +746,19 @@ export const normalserviceindividual = [
               ],
               ques: "Why Choose Collagen Induction Therapy?",
               answers: [
-                "•	Acne Scar Treatment: CIT promotes the regeneration of skin cells, helping to diminish the appearance of acne scars over time.",
+                "1.	Acne Scar Treatment: CIT promotes the regeneration of skin cells, helping to diminish the appearance of acne scars over time.",
 
-                "•	Skin Tightening: The procedure stimulates collagen production, leading to firmer, tighter skin with improved texture.",
+                "2.	Skin Tightening: The procedure stimulates collagen production, leading to firmer, tighter skin with improved texture.",
 
-                "•	Rejuvenation: CIT enhances overall skin health, resulting in a fresher, more youthful complexion.",
+                "3.	Rejuvenation: CIT enhances overall skin health, resulting in a fresher, more youthful complexion.",
 
-                "•	Stretch Mark Treatment: By promoting the growth of new skin cells, CIT helps to reduce the appearance of stretch marks, making them less noticeable.",
+                "4.	Stretch Mark Treatment: By promoting the growth of new skin cells, CIT helps to reduce the appearance of stretch marks, making them less noticeable.",
               ],
               treatment: {
                 title: "Multiple Sessions for Optimal Results:",
-                para: "For the best results, multiple sessions of Collagen Induction Therapy are recommended. The number of sessions required varies depending on the individual’s skin condition and desired outcome. It is crucial that this treatment is performed by an expert dermatologist to ensure safety and efficacy.",
+                para: [
+                  "For the best results, multiple sessions of Collagen Induction Therapy are recommended. The number of sessions required varies depending on the individual’s skin condition and desired outcome. It is crucial that this treatment is performed by an expert dermatologist to ensure safety and efficacy.",
+                ],
               },
               conclusion:
                 "At SK Durmiqe Clinic, our dermatologist Dr. Shweta Kesarwani provides personalized Collagen Induction Therapy, providing personalized care to help you achieve the best possible results. Visit us to learn more about how this innovative procedure can transform your skin.",
@@ -798,17 +808,19 @@ export const normalserviceindividual = [
               ],
               ques: "Why Choose Mesotherapy?",
               answers: [
-                "•	Hydrated, Glowing Skin: The infusion of targeted serums deeply hydrates the skin, leaving it soft, smooth, and glowing.",
+                "1.	Hydrated, Glowing Skin: The infusion of targeted serums deeply hydrates the skin, leaving it soft, smooth, and glowing.",
 
-                "•	Well-Nourished Skin: The combination of vitamins and antioxidants revitalizes the skin, providing it with the essential nutrients needed to look its best.",
+                "2.	Well-Nourished Skin: The combination of vitamins and antioxidants revitalizes the skin, providing it with the essential nutrients needed to look its best.",
 
-                "•	Hair Growth Stimulation: When used on the scalp, Mesotherapy effectively reduces hair loss and promotes the growth of healthier, stronger hair.",
+                "3.	Hair Growth Stimulation: When used on the scalp, Mesotherapy effectively reduces hair loss and promotes the growth of healthier, stronger hair.",
               ],
 
               treatment: {
                 title: "Multiple Sessions for Optimal Results:",
 
-                para: "Mesotherapy requires multiple sessions to achieve the best results, with noticeable improvements visible shortly after treatment. The procedure has minimal downtime, allowing you to quickly return to your daily activities with a rejuvenated appearance.",
+                para: [
+                  "Mesotherapy requires multiple sessions to achieve the best results, with noticeable improvements visible shortly after treatment. The procedure has minimal downtime, allowing you to quickly return to your daily activities with a rejuvenated appearance.",
+                ],
               },
               conclusion:
                 "For more information on how Mesotherapy can benefit your skin and hair, kindly visit SK Durmiqe Clinic. Our expert dermatologist Dr. Shweta Kesarwani is here to guide you through the process and ensure you achieve the best possible results.",
@@ -829,11 +841,11 @@ export const normalserviceindividual = [
               ],
               ques: "Why Choose PRP and GFC?",
               answers: [
-                "•	Hair Loss Treatment: PRP and GFC treatments are highly effective for individuals experiencing hair thinning or hair loss. By stimulating hair follicles, these therapies promote the growth of stronger, thicker hair.",
+                "1.	Hair Loss Treatment: PRP and GFC treatments are highly effective for individuals experiencing hair thinning or hair loss. By stimulating hair follicles, these therapies promote the growth of stronger, thicker hair.",
 
-                "•	Skin Rejuvenation: PRP and GFC can also be used to rejuvenate the skin, reducing fine lines, improving texture, and enhancing overall skin tone.",
+                "2.	Skin Rejuvenation: PRP and GFC can also be used to rejuvenate the skin, reducing fine lines, improving texture, and enhancing overall skin tone.",
 
-                "•	Natural and Safe: Because PRP and GFC are derived from the patient’s own blood, the treatments are natural and safe, minimizing the risk of adverse reactions.",
+                "3.	Natural and Safe: Because PRP and GFC are derived from the patient’s own blood, the treatments are natural and safe, minimizing the risk of adverse reactions.",
               ],
               conclusion:
                 "At SK Durmiqe Clinic, our expert dermatologist Dr. Shweta Kesarwani provides personalized PRP and GFC treatments tailored to your specific needs. Whether you’re looking to restore your hair or rejuvenate your skin, we’re here to help you achieve your aesthetic goals.",
@@ -868,18 +880,31 @@ export const normalserviceindividual = [
               ],
               ques: "Commonly Used Treatments:",
               answers: [
-                "•	Moisturizers: Applying moisturizers in larger amounts helps to keep the skin hydrated and reduce dryness.",
+                "1.	Moisturizers: Applying moisturizers in larger amounts helps to keep the skin hydrated and reduce dryness.",
 
-                "•	Topical Creams and Ointments: These are used to reduce inflammation and soothe irritated skin.",
+                "2.	Topical Creams and Ointments: These are used to reduce inflammation and soothe irritated skin.",
 
-                "•	Oral Medicines: In more severe cases, oral medications may be prescribed to control symptoms.",
+                "3.	Oral Medicines: In more severe cases, oral medications may be prescribed to control symptoms.",
 
-                "•	Phototherapy/Laser: Light therapy can be effective in managing severe or persistent cases of atopic dermatitis.",
+                "4.	Phototherapy/Laser: Light therapy can be effective in managing severe or persistent cases of atopic dermatitis.",
               ],
               treatment: {
                 title: "Tips to Protect from Recurrence:",
 
-                para: "1.	Stay Away from Triggering Factors: Identify and avoid environmental or dietary triggers that may cause flare-ups. 2.	Avoid Excessive Scratching: Scratching can worsen the condition and lead to infections. 3.	Keep Fingernails Short: This helps to minimize skin damage from scratching. 4.	Avoid Hot Baths: Use lukewarm water instead, as hot water can dry out the skin. 5.	Use Moisturizing Soap or Shower Gel: These products help to maintain the skin’s natural moisture barrier. 6.	Apply Cream-Based Moisturizers: Generous use of cream-based moisturizers can help prevent dryness. 7.	Wear Cotton Clothes: Cotton clothing is gentle on the skin and reduces irritation. 8.	Hydrate Your Child: Ensure your child drinks plenty of water to keep the skin hydrated from within.",
+                para: [
+                  "•	Stay Away from Triggering Factors: Identify and avoid environmental or dietary triggers that may cause flare-ups.",
+
+                  "•	Avoid Excessive Scratching: Scratching can worsen the condition and lead to infections.",
+
+                  "•	Keep Fingernails Short: This helps to minimize skin damage from scratching.",
+
+                  "•	Avoid Hot Baths: Use lukewarm water instead, as hot water can dry out the skin.",
+
+                  "•	Use Moisturizing Soap or Shower Gel: These products help to maintain the skin’s natural moisture barrier.",
+                  "•	Apply Cream-Based Moisturizers: Generous use of cream-based moisturizers can help prevent dryness.",
+
+                  "•	Wear Cotton Clothes: Cotton clothing is gentle on the skin and reduces irritation. 8.	Hydrate Your Child: Ensure your child drinks plenty of water to keep the skin hydrated from within.",
+                ],
               },
               conclusion:
                 "If your child is struggling with atopic dermatitis, visit SK Durmiqe Clinic for expert guidance and personalized care.",
@@ -896,21 +921,25 @@ export const normalserviceindividual = [
               ],
               ques: "Where Cradle Cap is Usually Seen:",
               answers: [
-                "•	On the Scalp: The most common area affected, where greasy scales or crusts develop.",
+                "1.	On the Scalp: The most common area affected, where greasy scales or crusts develop.",
 
-                "•	On the Forehead and Face: Sometimes, cradle cap can spread to the forehead, eyebrows, and face.",
+                "2.	On the Forehead and Face: Sometimes, cradle cap can spread to the forehead, eyebrows, and face.",
 
-                "•	Behind the Ears: The skin behind the ears may also become flaky and irritated.",
+                "3.	Behind the Ears: The skin behind the ears may also become flaky and irritated.",
 
-                "•	In the Diaper Area: Seborrheic dermatitis can sometimes appear in the diaper area, causing redness and scaling.",
+                "4.	In the Diaper Area: Seborrheic dermatitis can sometimes appear in the diaper area, causing redness and scaling.",
 
-                "•	Armpits and Other Skin Folds: Cradle cap can extend to the armpits and other skin folds, where moisture and friction are present.",
+                "5.	Armpits and Other Skin Folds: Cradle cap can extend to the armpits and other skin folds, where moisture and friction are present.",
               ],
 
               treatment: {
                 title: "Managing Cradle Cap:",
 
-                para: "While cradle cap usually resolves on its own within a few weeks or months, there are steps you can take to help manage the condition and keep your baby comfortable. Gently washing your baby's scalp with a mild shampoo and softly brushing the affected area with a soft brush can help loosen and remove the scales. Avoid picking at the scales, as this can lead to irritation or infection. If the cradle cap is severe, persists for an extended period, or spreads beyond the scalp, it is essential to consult your doctor for appropriate treatment options. Your doctor may recommend medicated shampoos or topical treatments to help clear the condition.",
+                para: [
+                  "While cradle cap usually resolves on its own within a few weeks or months, there are steps you can take to help manage the condition and keep your baby comfortable. Gently washing your baby's scalp with a mild shampoo and softly brushing the affected area with a soft brush can help loosen and remove the scales. Avoid picking at the scales, as this can lead to irritation or infection.",
+
+                  "If the cradle cap is severe, persists for an extended period, or spreads beyond the scalp, it is essential to consult your doctor for appropriate treatment options. Your doctor may recommend medicated shampoos or topical treatments to help clear the condition.",
+                ],
               },
               conclusion:
                 "At SK Durmiqe Clinic, we emphasize the importance of consulting with your doctor for proper diagnosis and treatment of cradle cap. Our goal is to provide parents with the knowledge and support they need to care for their baby's delicate skin.",
@@ -1022,13 +1051,13 @@ export const normalserviceindividual = [
               ],
               ques: "What Can Botox Treat?",
               answers: [
-                "•	Fine Lines and Wrinkles: Botox is most commonly used to treat dynamic wrinkles, which are caused by repeated facial movements. These include forehead lines, frown lines between the eyebrows, and crow’s feet around the eyes.",
+                "1.	Fine Lines and Wrinkles: Botox is most commonly used to treat dynamic wrinkles, which are caused by repeated facial movements. These include forehead lines, frown lines between the eyebrows, and crow’s feet around the eyes.",
 
-                "•	Frown Lines Between the Eyebrows: Also known as glabellar lines, these are the vertical lines that form between the eyebrows due to frowning or squinting. Botox effectively softens these lines, creating a more relaxed and approachable appearance.",
+                "2.	Frown Lines Between the Eyebrows: Also known as glabellar lines, these are the vertical lines that form between the eyebrows due to frowning or squinting. Botox effectively softens these lines, creating a more relaxed and approachable appearance.",
 
-                "•	Crow’s Feet: These are the fine lines that appear at the outer corners of the eyes, often referred to as laugh lines. Botox can smooth these lines, giving the eyes a more youthful look.",
+                "3.	Crow’s Feet: These are the fine lines that appear at the outer corners of the eyes, often referred to as laugh lines. Botox can smooth these lines, giving the eyes a more youthful look.",
 
-                "•	Excessive Sweating: In addition to its cosmetic uses, Botox is also used to treat excessive sweating (hyperhidrosis) in the underarms. By blocking the nerve signals that stimulate sweat glands, Botox helps reduce excessive sweating, improving comfort and confidence.",
+                "4.	Excessive Sweating: In addition to its cosmetic uses, Botox is also used to treat excessive sweating (hyperhidrosis) in the underarms. By blocking the nerve signals that stimulate sweat glands, Botox helps reduce excessive sweating, improving comfort and confidence.",
               ],
               conclusion:
                 "At SK Durmiqe Clinic, our dermatologist Dr. Shweta Kesarwani provides personalized Botox treatments to help you achieve your desired aesthetic goals. For more information, visit our clinic and discover how Botox can help you maintain a youthful, refreshed appearance.",
@@ -1076,11 +1105,11 @@ export const normalserviceindividual = [
               ],
               ques: "Why Choose PRP and GFC?",
               answers: [
-                "•	Hair Loss Treatment: PRP and GFC treatments are highly effective for individuals experiencing hair thinning or hair loss. By stimulating hair follicles, these therapies promote the growth of stronger, thicker hair.",
+                "1.	Hair Loss Treatment: PRP and GFC treatments are highly effective for individuals experiencing hair thinning or hair loss. By stimulating hair follicles, these therapies promote the growth of stronger, thicker hair.",
 
-                "•	Skin Rejuvenation: PRP and GFC can also be used to rejuvenate the skin, reducing fine lines, improving texture, and enhancing overall skin tone.",
+                "2.	Skin Rejuvenation: PRP and GFC can also be used to rejuvenate the skin, reducing fine lines, improving texture, and enhancing overall skin tone.",
 
-                "•	Natural and Safe: Because PRP and GFC are derived from the patient’s own blood, the treatments are natural and safe, minimizing the risk of adverse reactions.",
+                "3.	Natural and Safe: Because PRP and GFC are derived from the patient’s own blood, the treatments are natural and safe, minimizing the risk of adverse reactions.",
               ],
               conclusion:
                 "At SK Durmiqe Clinic, our expert dermatologist Dr. Shweta Kesarwani provides personalized PRP and GFC treatments tailored to your specific needs. Whether you’re looking to restore your hair or rejuvenate your skin, we’re here to help you achieve your aesthetic goals.",
@@ -1143,18 +1172,26 @@ export const normalserviceindividual = [
               ],
               ques: "Treatment Options at SK Durmiqe Clinic:",
               answers: [
-                "•	Moisturizing Creams: Our expert dermatologist Dr. Shweta Kesarwani recommends emollient-based moisturizers that lock in moisture and restore the skin's protective barrier.",
+                "1.	Moisturizing Creams: Our expert dermatologist Dr. Shweta Kesarwani recommends emollient-based moisturizers that lock in moisture and restore the skin's protective barrier.",
 
-                "•	Hydrating Cleansers: Gentle, soap-free cleansers help clean the skin without stripping away its natural moisture.",
+                "2.	Hydrating Cleansers: Gentle, soap-free cleansers help clean the skin without stripping away its natural moisture.",
 
-                "•	Topical Treatments: In severe cases, we may prescribe topical treatments with ingredients like urea or hyaluronic acid to deeply hydrate the skin.",
+                "3.	Topical Treatments: In severe cases, we may prescribe topical treatments with ingredients like urea or hyaluronic acid to deeply hydrate the skin.",
 
-                "•	Lifestyle Advice: We provide guidance on using a humidifier, avoiding long hot showers, and wearing protective clothing to help manage dry skin.",
+                "4.	Lifestyle Advice: We provide guidance on using a humidifier, avoiding long hot showers, and wearing protective clothing to help manage dry skin.",
               ],
               treatment: {
                 title: "Key Factors Contributing to Dry Skin:",
 
-                para: "•	Aging: The natural aging process reduces the skin's ability to produce natural oils, making it more susceptible to dryness. •	Environmental Factors: Cold weather, low humidity, and exposure to air conditioning or heating can exacerbate dry skin. •	Harsh Soaps: These can strip the skin of its natural oils, further drying out the skin. •	Medical Conditions: Conditions like diabetes or thyroid disorders can also contribute to dry skin.",
+                para: [
+                  "•	Aging: The natural aging process reduces the skin's ability to produce natural oils, making it more susceptible to dryness.",
+
+                  "•	Environmental Factors: Cold weather, low humidity, and exposure to air conditioning or heating can exacerbate dry skin.",
+
+                  "•	Harsh Soaps: These can strip the skin of its natural oils, further drying out the skin.",
+
+                  "•	Medical Conditions: Conditions like diabetes or thyroid disorders can also contribute to dry skin.",
+                ],
               },
               conclusion:
                 "At SK Durmiqe Clinic, our goal is to provide care that treats dry skin and addresses its underlying causes, helping you enjoy smoother, healthier skin.",
@@ -1187,7 +1224,17 @@ export const normalserviceindividual = [
               treatment: {
                 title: "Treatment Options at SK Durmiqe Clinic:",
 
-                para: "At SK Durmiqe Clinic, our expert dermatologist Dr. Shweta Kesarwani is experienced in diagnosing the root causes of unexplained itching and providing effective treatment plans tailored to your needs. Treatment options may include: •	Moisturizing Creams and Lotions: To hydrate and soothe dry, itchy skin. •	Antihistamines: To relieve itching caused by allergies. •	Topical Steroids: To reduce inflammation and calm the skin. •	Lifestyle Modifications: Recommendations on avoiding triggers, staying hydrated, and maintaining a healthy diet.",
+                para: [
+                  "At SK Durmiqe Clinic, our expert dermatologist Dr. Shweta Kesarwani is experienced in diagnosing the root causes of unexplained itching and providing effective treatment plans tailored to your needs. Treatment options may include:",
+
+                  "•	Moisturizing Creams and Lotions: To hydrate and soothe dry, itchy skin.",
+
+                  "•	Antihistamines: To relieve itching caused by allergies.",
+
+                  "•	Topical Steroids: To reduce inflammation and calm the skin.",
+
+                  "•	Lifestyle Modifications: Recommendations on avoiding triggers, staying hydrated, and maintaining a healthy diet.",
+                ],
               },
 
               conclusion:
@@ -1209,17 +1256,25 @@ export const normalserviceindividual = [
               ],
               ques: "Causes and Risk Factors:",
               answers: [
-                "•	Aging: The primary cause of senile purpura is the natural aging process, which leads to thinning skin and weakened blood vessels.",
+                "1.	Aging: The primary cause of senile purpura is the natural aging process, which leads to thinning skin and weakened blood vessels.",
 
-                "•	Sun Exposure: Prolonged sun exposure over the years can further weaken the skin and contribute to the development of senile purpura.",
+                "2.	Sun Exposure: Prolonged sun exposure over the years can further weaken the skin and contribute to the development of senile purpura.",
 
-                "•	Medications: Certain medications, such as blood thinners, can increase the likelihood of bruising and the appearance of red patches.",
+                "3.	Medications: Certain medications, such as blood thinners, can increase the likelihood of bruising and the appearance of red patches.",
 
-                "•	Nutritional Deficiencies: Lack of certain nutrients, such as vitamin C, can impair skin health and increase the risk of senile purpura.",
+                "4.	Nutritional Deficiencies: Lack of certain nutrients, such as vitamin C, can impair skin health and increase the risk of senile purpura.",
               ],
               treatment: {
                 title: "Managing Senile Purpura:",
-                para: "While senile purpura typically resolves on its own, there are steps that can be taken to manage and prevent its occurrence: •	Protect Your Skin: Wearing protective clothing and using sunscreen can help reduce the risk of trauma and sun damage. •	Moisturize Regularly: Keeping the skin hydrated can improve its elasticity and reduce the risk of bruising. •	Consult a Dermatologist: If you’re concerned about senile purpura, visiting SK Durmiqe Clinic for a consultation can provide you with personalized advice and treatment options.",
+                para: [
+                  "While senile purpura typically resolves on its own, there are steps that can be taken to manage and prevent its occurrence:",
+
+                  "•	Protect Your Skin: Wearing protective clothing and using sunscreen can help reduce the risk of trauma and sun damage.",
+
+                  "•	Moisturize Regularly: Keeping the skin hydrated can improve its elasticity and reduce the risk of bruising.",
+
+                  "•	Consult a Dermatologist: If you’re concerned about senile purpura, visiting SK Durmiqe Clinic for a consultation can provide you with personalized advice and treatment options.",
+                ],
               },
               conclusion:
                 "At SK Durmiqe Clinic, our goal is to help you maintain healthy skin at every stage of life. If you’re experiencing red patches on your arms or other skin concerns, our expert dermatologists are here to assist you.",
@@ -1240,15 +1295,24 @@ export const normalserviceindividual = [
               ],
               ques: "Causes and Risk Factors:",
               answers: [
-                "•	Aging: As the skin ages, it produces less oil and becomes drier, which can lead to an increase in clogged pores.",
+                "1.	Aging: As the skin ages, it produces less oil and becomes drier, which can lead to an increase in clogged pores.",
 
-                "•	Sun Damage: Prolonged exposure to the sun can cause thickening of the skin, making it more prone to developing comedones.",
+                "2.	Sun Damage: Prolonged exposure to the sun can cause thickening of the skin, making it more prone to developing comedones.",
 
-                "•	Decreased Skin Turnover: With age, the skin’s natural exfoliation process slows down, leading to the buildup of dead skin cells that can clog pores.",
+                "3.	Decreased Skin Turnover: With age, the skin’s natural exfoliation process slows down, leading to the buildup of dead skin cells that can clog pores.",
               ],
               treatment: {
                 title: "Managing Senile Comedones:",
-                para: "At SK Durmiqe Clinic, we offer a variety of treatments to effectively manage and reduce senile comedones: •	Topical Retinoids: These help to increase cell turnover and prevent clogged pores. •	Chemical Peels: A gentle exfoliation process that removes dead skin cells and clears blocked pores. •	Extraction: A professional procedure to safely remove comedones without damaging the skin. •	Regular Skincare Routine: A consistent routine using non-comedogenic products can help prevent the formation of new comedones. ",
+                para: [
+                  "At SK Durmiqe Clinic, we offer a variety of treatments to effectively manage and reduce senile comedones:",
+                  "•	Topical Retinoids: These help to increase cell turnover and prevent clogged pores.",
+
+                  "•	Chemical Peels: A gentle exfoliation process that removes dead skin cells and clears blocked pores.",
+
+                  "•	Extraction: A professional procedure to safely remove comedones without damaging the skin.",
+
+                  "•	Regular Skincare Routine: A consistent routine using non-comedogenic products can help prevent the formation of new comedones.",
+                ],
               },
               conclusion:
                 "If you’re concerned about senile comedones, visiting SK Durmiqe Clinic can provide you with personalized care and effective treatment options. Our expert dermatologist Dr. Shweta Kesarwani is here to help you maintain healthy, clear skin at any age.",
