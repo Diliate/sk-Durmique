@@ -1,14 +1,19 @@
-import image1 from "../assets/images/Specialservice1.jpg";
-import image2 from "../assets/images/Specialservice2.jpg";
 import image3 from "../assets/images/Specialservice3.jpg";
-import image4 from "../assets/images/Specialservice4.jpg";
 import image5 from "../assets/images/Specialservice5.jpg";
 import image6 from "../assets/images/Specialservice6.jpg";
+
+import laser from "../assets/new_images/laser-reduction.jpg";
+// import skinTightening from "../assets/new_images/sk";
+// import mnrf from "../assets/new_images/";
+// import prp from "../assets/new_images/prp";
+
+import photofacial from "../assets/new_images/Photofacial.jpg";
+import carbonfacial from "../assets/new_images/Carbon_facial.jpg";
 
 export const specialservicedetails = [
   {
     id: 1,
-    src: image1,
+    src: laser,
     alt: "Laser Hair Reduction",
     details: [
       "Laser hair reduction is one of the most common and effective procedures offered at SK Durmiqe Clinic. This treatment works by targeting the color-producing cells (melanocytes) located at the roots of the hair. The laser light precisely targets these cells, reducing hair growth over time and providing you with the desired smooth skin.",
@@ -30,7 +35,7 @@ export const specialservicedetails = [
   },
   {
     id: 2,
-    src: image2,
+    src: photofacial,
     alt: "PHOTOFACIAL/PHOTOREJUVENATION: Achieve Radiant Skin with IPL Technology",
     details: [
       "IPL Photo facial, also known as Photo rejuvenation, is a quick and effective half-hour procedure designed to enhance the appearance of your skin. This treatment utilizes intense pulses of light that penetrate deep into the skin, stimulating collagen production and causing blood vessels to constrict. The result is a reduction in fine lines, wrinkles, and redness, leading to a more youthful and vibrant complexion. Photo facial is suitable for individuals of all ages looking to improve their skin tone and texture.",
@@ -77,7 +82,7 @@ export const specialservicedetails = [
   },
   {
     id: 4,
-    src: image4,
+    src: carbonfacial,
     alt: "CARBON FACIAL/CARBON LASER PEEL: A Revolutionary Treatment for Clearer Skin",
     details: [
       "Carbon Laser Peel, also known as Carbon Facial, is an advanced, non-invasive dermatological procedure designed to treat acne, open pores, oily skin, and uneven skin tone. This mild yet effective treatment requires no numbing cream and delivers noticeable results with minimal downtime.",

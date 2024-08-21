@@ -1,14 +1,19 @@
-import image1 from "../assets/images/Specialservice2.jpg";
-import image2 from "../assets/images/Specialservice2.jpg";
 import image3 from "../assets/images/Specialservice3.jpg";
-import image4 from "../assets/images/Specialservice4.jpg";
 import image5 from "../assets/images/Specialservice5.jpg";
 import image6 from "../assets/images/Specialservice6.jpg";
+
+import laser from "../assets/new_images/laser-reduction.jpg";
+// import skinTightening from "../assets/new_images/sk";
+// import mnrf from "../assets/new_images/";
+// import prp from "../assets/new_images/prp";
+
+import photofacial from "../assets/new_images/Photofacial.jpg";
+import carbonfacial from "../assets/new_images/Carbon_facial.jpg";
 
 export const specialservices = [
   {
     id: 1,
-    src: image1,
+    src: laser,
     alt: "Image 1",
     title: "Laser Hair Reduction",
     details:
@@ -16,7 +21,7 @@ export const specialservices = [
   },
   {
     id: 2,
-    src: image2,
+    src: photofacial,
     alt: "Image 2",
     title: "Photofacial",
     details:
@@ -32,7 +37,7 @@ export const specialservices = [
   },
   {
     id: 4,
-    src: image4,
+    src: carbonfacial,
     alt: "Image 4",
     title: "Carbon Facial",
     details:
