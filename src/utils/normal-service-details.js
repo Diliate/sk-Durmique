@@ -94,10 +94,21 @@ export const normalservicedetails = [
     src: image4,
     title: "Skin Rejuvenation",
     details: {
-      images: [dermaroller],
+      images: [
+        dermaroller,
+        dermaroller,
+        dermaroller,
+        dermaroller,
+        dermaroller,
+        dermaroller,
+        dermaroller,
+        dermaroller,
+        dermaroller,
+        dermaroller,
+      ],
       titles: [
         "Chemical or Derma Peel",
-        "Aquafacial/Hydrafacial",
+        "Aquafacial",
         "Photofacial",
         "Carbon Facial",
         "RF Toning",
@@ -114,7 +125,7 @@ export const normalservicedetails = [
     src: image5,
     title: "Pediatric Skin Problems",
     details: {
-      images: [],
+      images: [dermaroller, dermaroller, dermaroller, dermaroller, dermaroller],
       titles: [
         "Atopic Dermatitis",
         "Cradle Cap",
@@ -127,10 +138,10 @@ export const normalservicedetails = [
   {
     id: 6,
     src: image6,
-    title: "Be Youthful/Antiaging",
+    title: "Antiaging",
     details: {
-      images: [],
-      titles: ["Anti Wrinkle Infection", "Dermafillers", "PRP & GFC", "MnRF"],
+      images: [dermaroller, dermaroller, dermaroller, dermaroller],
+      titles: ["Anti Wrinkle Injection", "Dermafillers", "PRP & GFC", "MnRF"],
     },
   },
   {
@@ -138,8 +149,13 @@ export const normalservicedetails = [
     src: image6,
     title: "Old Age Related Skin Problems",
     details: {
-      images: [antiwrinkle, mnrf],
-      titles: ["Anti Wrinkle Infection", "Dermafillers", "PRP & GFC", "MnRF"],
+      images: [antiwrinkle, mnrf, dermaroller, dermaroller],
+      titles: [
+        "Dryness",
+        "Unexplained itching all over body",
+        "Senile Purpura",
+        "Senile Comedones",
+      ],
     },
   },
 ];
