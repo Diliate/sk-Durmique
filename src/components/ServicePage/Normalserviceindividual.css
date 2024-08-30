@@ -70,6 +70,16 @@
     text-align: center;
 }
 
+@media (max-width:1024px) {
+    .content {
+        flex-direction: column;
+    }
+    .content img {
+        width: 100%;
+    }
+}
+
+
 @media (max-width:768px) {
     .content {
         flex-direction: column;
