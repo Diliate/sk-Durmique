@@ -32,13 +32,9 @@ function Blogpage() {
                     <h2>{blog.title}</h2>
                     <p className="text-limit">{blog.description}</p>
                   </div>
-                  <a
-                    href="https://medium.com/"
-                    target="_blank"
-                    className="read-more"
-                  >
+                  <Link to={`/blog/${index}`} className="read-more">
                     Read more
-                  </a>
+                  </Link>
                 </div>
               </article>
             ))}

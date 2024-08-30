@@ -35,6 +35,9 @@ const Normalserviceindividual = lazy(() =>
   import("./components/ServicePage/Normalserviceindividual")
 );
 const Blog = lazy(() => import("./components/Blog/Blogpage"));
+
+const BlogDetails = lazy(() => import("./components/BlogDetails/BlogDetails"));
+
 const Testimonial = lazy(() => import("./components/Testimonial/Testimonial"));
 
 function AppContent() {
@@ -94,6 +97,7 @@ function AppContent() {
             />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:index" element={<BlogDetails />} />
             <Route path="/testimonial" element={<Testimonial />} />
             <Route path="/appointment" element={<AppointmentPage />} />
             <Route path="/login" element={<Login />} />
